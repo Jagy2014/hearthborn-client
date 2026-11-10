@@ -157,7 +157,7 @@ Keep useful information visible while exploring or organizing a settlement.
 - Highlight selected terrain types and ore tiles.
 - Review saved meteorite measurements on both the large and detached maps.
 
-![Map toolbar, claim borders, terrain highlighting, and a session trail — screenshot placeholder](docs/images/map-tools.svg)
+![Map toolbar, claim borders, terrain highlighting, and a session trail — screenshot placeholder](docs/images/map.png)
 
 ## Mining tools and object radii
 
