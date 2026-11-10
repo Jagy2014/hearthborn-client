@@ -172,7 +172,7 @@ Combine support information, mining annotations, and configurable range overlays
 
 **Ctrl+R** toggles radii configured to appear by command. Mining checks use loaded objects and received data; coverage shading and manual check marks do not guarantee protection from cave-ins.
 
-![Mine support coverage, damage colors, and tile annotations — screenshot placeholder](docs/images/mining-and-radii.svg)
+![Mine support coverage, damage colors, and tile annotations — screenshot placeholder](docs/images/mining-tools.png)
 
 [Read more about mining safety and annotations](docs/features/mining-safety.en.md).
 
