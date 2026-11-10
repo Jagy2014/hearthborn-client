@@ -129,7 +129,7 @@ Recognize storage at a glance using item images displayed above cupboards.
 
 Icons are based on contents the client has seen. They do not reveal the inventory of an unopened, unknown cupboard.
 
-![Cupboards labeled with their contents icons — screenshot placeholder](docs/images/cupboard-icons.svg)
+![Cupboards labeled with their contents icons — screenshot placeholder](docs/images/cupboard-info.png)
 
 ## Stockpile materials and ore icons
 
