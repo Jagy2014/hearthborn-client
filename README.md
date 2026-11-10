@@ -4,7 +4,7 @@
 
 Hearthborn brings village plans, cheese production tools, automatic timers, meteorite triangulation, and practical automation into one client. It also improves navigation, storage labels, mining overlays, and the interface, with English and Russian language support.
 
-![Hearthborn client overview — screenshot placeholder](docs/images/buymeacoffee.png)
+![Hearthborn client overview — screenshot placeholder](docs/images/buymeacoffee2.png)
 
 ## Explore the features
 
