@@ -34,7 +34,7 @@ Keep a local overview of your village and personal claims, including terrain, bu
 
 The plan fills in as you explore. It uses loaded claim data and saved observations; it cannot reveal unexplored areas or automatically confirm every claim permission.
 
-![Village plan with named areas and an object list — screenshot placeholder](docs/images/village-plan.svg)
+![Village plan with named areas and an object list — screenshot placeholder](docs/images/village-plan.png)
 
 [Read more about claim plans](docs/features/claim-plan.en.md).
 
