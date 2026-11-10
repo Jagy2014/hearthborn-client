@@ -142,7 +142,7 @@ Tell materials apart in the world instead of opening every pile.
 
 Transfer an item through a stockpile window, or create a pile from an item, to identify its material. Opening a window alone may not identify it. Observed materials are saved locally; transfer another item after changing a pile's contents to refresh the record.
 
-![Colored stone, clay, and brick piles alongside ore icons — screenshot placeholder](docs/images/stockpile-materials.svg)
+![Colored stone, clay, and brick piles alongside ore icons — screenshot placeholder](docs/images/stockpile-info.png)
 
 [Read more about stockpile materials and ore icons](docs/features/stone-pile-colors.en.md).
 
