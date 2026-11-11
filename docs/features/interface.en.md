@@ -14,7 +14,7 @@ Hearthborn provides a fully configurable in-game interface. You can keep the fam
 
 F-key, numeric, and additional toolbars can be moved around the screen and arranged horizontally or vertically. Supported bars can also be attached to the bottom edge. Keep them together or separate them to make room for other windows.
 
-Drag a toolbar by its background or gaps between buttons. When an icon occupies the area you need to drag, hold **Alt/Option** while dragging. Supported panels snap to nearby windows and screen edges.
+Drag a toolbar by its background or gaps between buttons. When an icon occupies the area you need to drag, hold **Alt/Option** while dragging. Action toolbars snap to each other, making it easy to arrange them as a group.
 
 ![Horizontal toolbars](../images/interface2.png)
 
@@ -34,7 +34,7 @@ Use **Options → UI settings** to change panel scale, portrait scale, the optio
 
 ## Quest journal, chat, and equipment
 
-The **Quest journal** is a movable window that keeps active quests and objectives visible. Chat can be repositioned and resized. The equipment strip can be arranged vertically or horizontally, with configurable visible slots. Supported windows and panels can be docked to each other.
+The **Quest journal** is a movable window that keeps active quests and objectives visible. Chat can be repositioned and resized. The equipment strip can be arranged vertically or horizontally, with configurable visible slots. Chat, the quest journal, and the map snap to each other and to the edges of the screen. Action toolbars also snap together.
 
 ![Classic bottom-corner arrangement](../images/interface.png)
 
@@ -46,4 +46,3 @@ Press **Alt+Space** to toggle compact UI. During combat, the client can automati
 
 The screenshots above demonstrate different configurations, not fixed presets. You can mix their arrangements to build your own layout.
 
-For more about snapping and docking behavior, see [Magnetic windows](magnetic-windows.en.md).
