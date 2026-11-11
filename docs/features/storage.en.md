@@ -21,6 +21,10 @@ The game server does not provide the barrel's contents automatically. Until you 
 - **Hold Space** to display the names of rock stockpiles.
 - Show cheese rack labels, selected object radii, and useful production information in the world.
 
+## Ready-to-collect tanning equipment
+
+**Drying racks for hides** and **tanning tubs** are **highlighted in green when their contents are ready to collect**. This makes it easier to spot completed processing without checking each rack or tub individually.
+
 ## Item transfers and stockpile controls
 
 Hearthborn adds shortcuts for moving matching items while keeping different materials separate when needed.
