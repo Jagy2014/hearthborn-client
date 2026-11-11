@@ -22,13 +22,13 @@ Drag a toolbar by its background or gaps between buttons. When an icon occupies 
 
 ## Position the portrait and status indicators
 
-Move the character portrait and status cluster to the right side if you prefer a mirrored HUD. Show or hide supported indicators, including food and hunger meters, water and tea, study reminders, FPS/ping, and other utility widgets.
+Move the character portrait and status bars together to the right side if you prefer a mirrored HUD. Surrounding indicators adjust to the new position. Show or hide supported indicators, including food and hunger meters, water and tea, study reminders, FPS/ping, and other utility widgets.
 
 ![Interface settings and classic HUD](../images/interface5.png)
 
 ## Adjust appearance and scale
 
-Use **Options → UI settings** to change panel scale, portrait scale, gold frames on supported toolbars, and the light interface option. These settings let you choose between a compact workspace and larger, more accessible controls.
+Use **Options → UI settings** to change panel scale, portrait scale, the option to enable or disable decorative gold frames on supported toolbars, and the light interface option. These settings let you choose between a compact workspace and larger, more accessible controls.
 
 ![Panels with different positions](../images/interface3.png)
 
