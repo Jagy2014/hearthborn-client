@@ -49,6 +49,7 @@ plugins:
             Action Search: Поиск действий
             Production & management: Производство и управление
             Quality Roster: Журнал качества
+            Cattle Roster: Журнал животных
             Village & Claim Planner: Планировщик деревни и владений
             Cheese Assistant: Помощник сыровара
             Automatic Timers: Автоматические таймеры
@@ -78,6 +79,7 @@ nav:
   - Production & management:
       - Storage & stockpiles: features/storage.md
       - Quality Roster: features/quality-roster.md
+      - Cattle Roster: features/cattle-roster.md
       - Village & Claim Planner: features/claim-plan.md
       - Cheese Assistant: features/cheese.md
       - Automatic Timers: features/timers.md
