@@ -108,6 +108,12 @@ Use **Options → UI settings** to change panel scale, portrait scale, the optio
 
 ![Panels with different positions](../images/interface3.png)
 
+## Redesigned Character Sheet
+
+The **Character Sheet** presents character progression and food-related information in a clearer layout. The **Base Attributes** table shows base values, positive and negative modifiers, and resulting totals side by side. **Food Satiations** lists food types and their current percentages, while **Food Event Points** and **Hunger Level** are displayed as prominent progress bars. The familiar character-sheet category icons remain accessible along the bottom.
+
+![Redesigned Character Sheet showing attributes, food satiations, and progress bars](../images/Character%20Sheet.png)
+
 ## Equipment window and bonuses
 
 The **Equipment** window now includes an **Equipment bonuses** panel, showing the combined bonuses provided by equipped items. It displays bonuses to character attributes and skills, as well as learning ability, inventory space, armor deflection and absorption, **Concealment (Int × Ste)**, and **Detection (Prc × Exp)**. This makes it easier to review equipment effects without inspecting each item separately.
