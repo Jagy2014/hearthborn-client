@@ -6,6 +6,14 @@ The **Xtensions** menu also contains actions related to travel, mining, and depl
 
 ![Xtensions action menu](../images/xtensions.png)
 
+## Crop growth stages
+
+Hearthborn can display the **growth stage of crops in fields** directly above the plants.
+
+By default, growth indicators are shown **only for crops that are ready to harvest**, keeping the field view less cluttered. **Hold Shift** to temporarily reveal the growth stages of **crops that have not yet matured** as well.
+
+![Crop growth stages displayed across fields](../images/farming.png)
+
 ## Before you start
 
 - Make sure the required items, tools, and nearby objects are available as described for each command.
