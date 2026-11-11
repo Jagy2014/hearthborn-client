@@ -29,8 +29,9 @@ The Timers window contains **Automatic**, **Cheese**, and **Manual** tabs; you c
 
 ## Storage and production visibility
 
-- Show observed cupboard contents as item icons above cupboards.
-- Identify observed stone, clay, brick, metal, and ore stockpiles visually.
+- Show observed cupboard contents as item icons above cupboards. You can **change the displayed icon from the cupboard's menu**.
+- Show **ore stockpiles with icons** indicating their contents. **Stone, brick, and clay stockpiles use distinct colors** to make materials easier to distinguish.
+- **Hold Shift** to display stockpile names.
 - Show cheese rack labels and selected object radii.
 
 ![Cupboard contents and labels](../images/cupboard-info.jpg)
