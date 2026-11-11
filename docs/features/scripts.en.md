@@ -2,6 +2,8 @@
 
 Hearthborn includes small, task-specific helpers in its action menus. They automate repetitive interactions with nearby objects, inventory items, animals, and crops. These are **individual commands**, not a system that independently runs an entire production chain.
 
+![Xtensions action menu](../images/xtensions.png)
+
 ## Before you start
 
 - Make sure the required items, tools, and nearby objects are available as described for each command.
