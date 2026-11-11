@@ -8,4 +8,4 @@ I also added a **cheese progression chart** to make it easier to plan cheese pro
 
 ![Cheese progression chart for production planning](../images/cheese-2.jpg)
 
-[Back to features](../../README.md#features)
+[Back to features](../index.md#features)
