@@ -47,7 +47,7 @@ plugins:
             Interface & controls: Интерфейс и управление
             Customizable interface: Настраиваемый интерфейс
             Action Search: Поиск действий
-            Village & production: Деревня и производство
+            Production & management: Производство и управление
             Quality Roster: Журнал качества
             Village & Claim Planner: Планировщик деревни и владений
             Cheese Assistant: Помощник сыровара
@@ -75,7 +75,7 @@ nav:
   - Interface & controls:
       - Customizable interface: features/interface.md
       - Action Search: features/action-search.md
-  - Village & production:
+  - Production & management:
       - Storage & stockpiles: features/storage.md
       - Quality Roster: features/quality-roster.md
       - Village & Claim Planner: features/claim-plan.md
