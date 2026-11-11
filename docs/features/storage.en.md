@@ -1,7 +1,7 @@
 # Storage and production visibility
 
-- Display observed cupboard contents as item icons above cupboards.
-- Identify observed stone, clay, brick, metal, and ore stockpiles visually.
+- Display observed cupboard contents as item icons above cupboards. **Change the displayed icon through the cupboard's menu.**
+- Identify observed stone, clay, brick, metal, and ore stockpiles visually. **Stone, brick, and clay stockpiles use distinct colors** to make materials easier to distinguish.
 - **Hold Space** to display the names of rock stockpiles.
 - Show cheese rack labels, selected object radii, and useful production information in the world.
 
