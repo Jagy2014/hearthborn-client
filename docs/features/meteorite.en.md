@@ -1,9 +1,7 @@
-# Improved pathfinding
+# Meteorite triangulation
 
-Hearthborn reworks the default pathfinding to make everyday movement smoother and less intrusive. It is **enabled by default**, but you can turn it off in the settings if you prefer direct movement controls.
+Use successive **Star Gaze** observations to narrow the estimated meteorite search area on the map. See direction sectors, numbered measurements, and their overlap; keep track of the server-provided starfall forecast.
 
-- Automatically navigates around nearby obstacles without getting in the way of normal play.
-- **Not used during combat, while swimming, or when traveling by boat.**
-- **Optional horseback pathfinding** can be enabled separately. It is off unless you choose to use it.
+*The triangulation view estimates an area, not an exact impact location.*
 
 [Back to features](../../README.md#features)
