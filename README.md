@@ -25,7 +25,7 @@ Explore each feature in its own illustrated guide.
 - [**Redesigned interface**](docs/features/interface.en.md) — Classic 4×4 or sidebar menu, movable toolbars, snapping windows, mirrored HUD, and compact mode.
 - [**Redesigned Action Search**](docs/features/action-search.en.md) — Favorites, history, recipe details, and ingredient search.
 
-### 🏡 Village & production
+### ⚙️ Production & management
 
 - [**Quality Roster**](docs/features/quality-roster.en.md) — Record object quality and display known values on your plans.
 - [**Village & Claim Planner**](docs/features/claim-plan.en.md) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
