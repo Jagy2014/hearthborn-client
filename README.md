@@ -6,7 +6,7 @@
 
 *Plan your village. Simplify production. Explore with better tools.*
 
-[Features](#features) · [Getting started](#getting-started) · [Documentation](#documentation) · [Support development](#support-development)
+[Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [Documentation](#documentation) · [Support development](#support-development)
 
 </div>
 
@@ -46,6 +46,18 @@ Explore each feature in its own illustrated guide.
 
 - [**Reimagined Minesweeper**](docs/features/mining-safety.en.md) — Mark cave tiles, inspect dust clues, and manage mining safety options.
 - [**Combat Assistance**](docs/features/combat.en.md) — Animal auto-combat and a compact combat interface.
+
+## Screenshots
+
+A quick look at Hearthborn's interface and tools. Click a feature name for the full guide.
+
+| [Customizable interface](docs/features/interface.en.md) | [Village & claim planning](docs/features/claim-plan.en.md) |
+| --- | --- |
+| ![Customizable Hearthborn interface](docs/images/interface5.png) | ![Village planner](docs/images/village-plan.jpg) |
+| [Quality Roster](docs/features/quality-roster.en.md) | [Map icons & display settings](docs/features/exploration.en.md#map-icons-and-display-settings) |
+| ![Quality Roster](docs/images/quality-roster.png) | ![Map tools](docs/images/map.jpg) |
+| [Cheese production](docs/features/production.en.md#cheese-production-assistant) | [Automation & Xtensions](docs/features/scripts.en.md) |
+| ![Cheese production chart](docs/images/cheese-2.jpg) | ![Xtensions menu](docs/images/xtensions.png) |
 
 ## Getting started
 
