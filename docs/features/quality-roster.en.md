@@ -19,21 +19,12 @@ Recorded quality values can also appear on the **Village Plan** or **Personal Cl
 
 ## Original README feature overview
 
-## 🏡 Village and claim planning
+## 📒 Quality roster
 
-Keep a locally saved overview of visited village and personal-claim areas. Find and label observed objects, measure areas in tiles, switch levels, and export plans to HTML or Excel.
+Keep a **quality journal** for objects and resources you encounter, so useful quality values are easy to find later.
 
-![Village plan with object list](../images/village-plan.jpg)
+- **Q button:** Opens the **Quality roster**, where you can browse recorded entries across categories such as buildings, trees, seeds, saplings, and barrels.
+- **Q with an arrow:** Activates the quality-recording tool. Use it on an object to read its quality and add the observation to the journal.
+- **Quality on your plans:** Recorded object quality can also be displayed directly on the **village plan** or **personal claim plan**, connecting your journal entries with their locations.
 
-| # | Feature | How it appears in the plan |
-| --- | --- | --- |
-| **1** | **Named areas** | Add an area and give it a useful name, such as *Leather Storage*, to mark where hides or other materials are kept. |
-| **2** | **Named houses** | Rename a house in the plan. The same name also appears above the house in the game world. |
-| **3** | **Tree quality** | Trees recorded in the **Quality Journal** display their known quality on the plan. |
-| **4** | **Furnaces and smelters** | Production equipment is added to the plan automatically. Its quality is displayed when that value is recorded in the **Quality Journal**. |
-| **5** | **Village idol** | The village idol is shown as part of the settlement layout. |
-| **6** | **Chicken coops and rabbit hutches** | Animal-keeping structures are represented on the plan. |
-| **7** | **Tanning tubs** | Leather-processing tubs appear in their observed locations. |
-| **8** | **Drying racks** | Leather drying racks are shown as part of the production area. |
-
-[Learn about village and claim plans](claim-plan.en.md)
+![Quality roster with recorded object qualities](../images/quality-roster.png)
