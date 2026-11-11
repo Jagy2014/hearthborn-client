@@ -2,88 +2,44 @@
 
 # Hearthborn Client
 
-**A custom client for Haven & Hearth**
+**An independent custom client for Haven & Hearth**
 
-*Plan your village. Simplify production. Explore with better tools.*
+*Customize your interface. Simplify production. Explore with better tools.*
 
-[Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [Documentation](#documentation) · [Support development](#support-development)
+[**Website & documentation**](https://jagy2014.github.io/hearthborn-client/) · [**Русская документация**](https://jagy2014.github.io/hearthborn-client/ru/) · [**Support development**](https://buymeacoffee.com/hearthborn_client)
 
 </div>
 
 ![Hearthborn Client](docs/images/hearthborn.png)
 
-Built on top of the original (vanilla) Haven & Hearth client, Hearthborn is an independent, unofficial custom client focused on improving everyday gameplay through a customizable interface and tools for village management, production, exploration, mining, and more.
+Hearthborn builds on the original Haven & Hearth client to make everyday gameplay more convenient. It brings together a configurable interface, production and storage helpers, planning tools, navigation improvements, and practical automation.
 
-**Languages:** English and Russian (approximately 98% of the client translated into Russian) · **Technology:** Java 22 / Apache Ant
+## Highlights
 
-## Features
+- **Customizable interface** — Flexible menus, toolbars, windows, and display options.
+- **Production & storage** — Cupboard and barrel contents, inventory transfers, crop growth indicators, cheese tracking, and timers.
+- **Planning & navigation** — Village and claim planning, improved pathfinding, map tools, and meteorite triangulation.
+- **Everyday assistance** — Quality and cattle rosters, mining aids, combat helpers, and Xtensions.
 
-Explore each feature in its own illustrated guide.
-
-### 🎛️ Interface & controls
-
-- [**Redesigned interface**](docs/features/interface.en.md) — Classic 4×4 or sidebar menu, movable toolbars, snapping windows, mirrored HUD, and compact mode.
-- [**Redesigned Action Search**](docs/features/action-search.en.md) — Favorites, history, recipe details, and ingredient search.
-
-### ⚙️ Production & management
-
-- [**Quality Roster**](docs/features/quality-roster.en.md) — Record object quality and display known values on your plans.
-- [**Cattle Roster**](docs/features/cattle-roster.en.md) — Redesigned livestock overview with automatic removal of slaughtered animals.
-- [**Village & Claim Planner**](docs/features/claim-plan.en.md) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
-- [**Cheese Production Assistant**](docs/features/cheese.en.md) — Cheese aging stages, rack labels, and progression chart.
-- [**Automatic Timers**](docs/features/timers.en.md) — Production, cheese, siege, claim, and manual timers.
-- [**Storage & Production Visibility**](docs/features/storage.en.md) — Cupboard contents, stockpile identification, and object labels.
-- [**Automation & Xtensions**](docs/features/scripts.en.md) — Helpers for fuel, workstations, crops, animals, and other repetitive tasks.
-
-### 🗺️ Navigation & exploration
-
-- [**Improved Pathfinding**](docs/features/pathfinding.en.md) — On by default, with optional horseback navigation.
-- [**Mapping & Exports**](docs/features/mapping.en.md) — Transfer maps between clients or export images and tiles.
-- [**Session Trail**](docs/features/session-trail.en.md) — View your route for the current session without recording it.
-- [**Map Icons & Display Settings**](docs/features/map-icons.en.md) — More icons, animal sounds, and redesigned map controls.
-- [**Meteorite Triangulation**](docs/features/meteorite.en.md) — Narrow a meteorite search area using Star Gaze observations.
-
-### ⛏️ Mining & combat
-
-- [**Reimagined Minesweeper**](docs/features/mining-safety.en.md) — Mark cave tiles, inspect dust clues, and manage mining safety options.
-- [**Combat Assistance**](docs/features/combat.en.md) — Animal auto-combat and a compact combat interface.
-
-## Screenshots
-
-A quick look at Hearthborn's interface and tools. Click a feature name for the full guide.
-
-| [Customizable interface](docs/features/interface.en.md) | [Village & claim planning](docs/features/claim-plan.en.md) |
-| --- | --- |
-| ![Customizable Hearthborn interface](docs/images/interface5.png) | ![Village planner](docs/images/village-plan.jpg) |
-| [Quality Roster](docs/features/quality-roster.en.md) | [Map icons & display settings](docs/features/map-icons.en.md) |
-| ![Quality Roster](docs/images/quality-roster.png) | ![Map tools](docs/images/map.jpg) |
-| [Cheese production](docs/features/cheese.en.md) | [Automation & Xtensions](docs/features/scripts.en.md) |
-| ![Cheese production chart](docs/images/cheese-2.jpg) | ![Xtensions menu](docs/images/xtensions.png) |
-| [Cheese aging on racks](docs/features/cheese.en.md) | [Cupboard contents](docs/features/storage.en.md) |
-| ![Cheese racks and aging stages](docs/images/cheese-1.jpg) | ![Item icons above cupboards](docs/images/cupboard-info.jpg) |
+Explore the full feature list, screenshots, and illustrated guides on the **[Hearthborn documentation website](https://jagy2014.github.io/hearthborn-client/)**.
 
 ## Getting started
 
-Hearthborn is an unofficial custom client for Haven & Hearth. Installation and launcher instructions will be linked here when a verified distribution is available.
+Installation and launcher instructions will be published when a verified distribution is available. Until then, the [documentation](https://jagy2014.github.io/hearthborn-client/) describes the client and its features.
 
-To explore the available features and controls, start with the [interface guide](docs/features/interface.en.md) and [automation guide](docs/features/scripts.en.md).
+**Languages:** English and Russian (approximately 98% of the client translated into Russian)  
+**Technology:** Java 22 / Apache Ant
 
-## Documentation
+## Source code and documentation
 
-Detailed guides with screenshots are available in [`docs/features/`](docs/features/). Feature links above lead directly to the relevant pages or sections.
-
-**Note:** Timers, quality information, maps, and automation rely on data actually observed by the client. They do not reveal unexplored information or guarantee successful actions.
-
-## Privacy
-
-Hearthborn is intended to use the standard Haven & Hearth server connection without sending gameplay data to third-party services. This describes the project's intended behavior, not an independently verified network audit. Review the source code and any future integrations before relying on this as a security guarantee.
+The client source code is planned for publication in this repository. The documentation source is maintained in [`docs/`](docs/) on the `main` branch and automatically published to the `gh-pages` branch. Please use the website for the latest feature descriptions rather than this README.
 
 ## Support development
 
-Hearthborn is free for everyone. Donations are voluntary and help support continued development, bug fixes, and new features. They do not unlock exclusive features or provide in-game advantages.
+Hearthborn is free for everyone. Donations are voluntary and help support continued development; they do not unlock exclusive features or in-game advantages.
 
-**[❤️ Support Hearthborn on Buy Me a Coffee](https://buymeacoffee.com/hearthborn_client)**
+[**Support Hearthborn on Buy Me a Coffee**](https://buymeacoffee.com/hearthborn_client)
 
 ## Credits and license
 
-Hearthborn is an independent project based on the Haven & Hearth client. Original game and client credits belong to their respective authors. Refer to the upstream client for its original license terms.
+Hearthborn is an independent, unofficial project based on the Haven & Hearth client. The original game and client belong to their respective authors. Upstream license obligations remain applicable; consult the original client for its license terms.
