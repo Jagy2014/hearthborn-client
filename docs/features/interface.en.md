@@ -10,6 +10,8 @@ Hearthborn provides a fully configurable in-game interface. You can keep the fam
 
 The classic menu can sit in the **bottom-left** or **bottom-right** corner, with the portrait and status bars positioned independently.
 
+**Quick return to the main menu:** Instead of pressing Back repeatedly through each submenu, **right-click (RMB) the Back button** to jump directly to the top-level (home) action menu. A normal left-click still returns one level at a time.
+
 | Classic menu on the left | Classic menu on the right |
 | --- | --- |
 | ![Classic action grid in the bottom-left corner](../images/classic%20menu%20left.png) | ![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png) |
