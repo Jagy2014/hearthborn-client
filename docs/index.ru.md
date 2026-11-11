@@ -1,5 +1,3 @@
-<div align="center">
-
 # Hearthborn Client
 
 **Модифицированный клиент для Haven & Hearth**
@@ -7,8 +5,6 @@
 *Планируйте деревню. Упрощайте производство. Исследуйте мир с удобными инструментами.*
 
 [Возможности](#features) · [Скриншоты](#screenshots) · [Начало работы](#getting-started) · [Документация](#documentation) · [Поддержать проект](#support-development)
-
-</div>
 
 ![Hearthborn Client](images/hearthborn.png)
 
