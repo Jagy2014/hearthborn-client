@@ -2,44 +2,50 @@
 
 # Hearthborn Client
 
-**An independent custom client for Haven & Hearth**
+**An independent, unofficial custom client for Haven & Hearth**
 
 *Customize your interface. Simplify production. Explore with better tools.*
 
-[**Website & documentation**](https://jagy2014.github.io/hearthborn-client/) · [**Русская документация**](https://jagy2014.github.io/hearthborn-client/ru/) · [**Support development**](https://buymeacoffee.com/hearthborn_client)
+[**Documentation**](https://jagy2014.github.io/hearthborn-client/) · [**Русская документация**](https://jagy2014.github.io/hearthborn-client/ru/) · [**Support development**](https://buymeacoffee.com/hearthborn_client)
 
 </div>
 
 ![Hearthborn Client](docs/images/hearthborn.png)
 
-Hearthborn builds on the original Haven & Hearth client to make everyday gameplay more convenient. It brings together a configurable interface, production and storage helpers, planning tools, navigation improvements, and practical automation.
+Hearthborn builds on the original Haven & Hearth client to make everyday gameplay more convenient, with a customizable interface and practical tools for production, storage, exploration, planning, and automation.
 
-## Highlights
+## Features
 
-- **Customizable interface** — Flexible menus, toolbars, windows, and display options.
-- **Production & storage** — Cupboard and barrel contents, inventory transfers, crop growth indicators, cheese tracking, and timers.
-- **Planning & navigation** — Village and claim planning, improved pathfinding, map tools, and meteorite triangulation.
-- **Everyday assistance** — Quality and cattle rosters, mining aids, combat helpers, and Xtensions.
+- **Interface & controls:** Movable radial menus and toolbars, interface widgets, enhanced Inspect, and redesigned character and equipment windows.
+- **Production & management:** Container labels, inventory transfers, quality and cattle rosters, cheese tracking, automatic timers, and Xtensions.
+- **Navigation & exploration:** Improved pathfinding, mapping tools, claim planning, and meteorite triangulation.
+- **Mining & combat:** Mining safety tools and combat assistance.
 
-Explore the full feature list, screenshots, and illustrated guides on the **[Hearthborn documentation website](https://jagy2014.github.io/hearthborn-client/)**.
+See the **[complete feature documentation](https://jagy2014.github.io/hearthborn-client/)** for detailed descriptions and screenshots.
 
-## Getting started
+## Documentation
 
-Installation and launcher instructions will be published when a verified distribution is available. Until then, the [documentation](https://jagy2014.github.io/hearthborn-client/) describes the client and its features.
+Full guides and interface information are available on the **[Hearthborn documentation website](https://jagy2014.github.io/hearthborn-client/)** in English and Russian. Installation and launcher instructions will be added when a verified distribution becomes available.
 
 **Languages:** English and Russian (approximately 98% of the client translated into Russian)  
 **Technology:** Java 22 / Apache Ant
 
-## Source code and documentation
+The client source code is planned for publication in this repository. Documentation sources are maintained in [`docs/`](docs/) on `main` and published automatically to GitHub Pages.
 
-The client source code is planned for publication in this repository. The documentation source is maintained in [`docs/`](docs/) on the `main` branch and automatically published to the `gh-pages` branch. Please use the website for the latest feature descriptions rather than this README.
+## Privacy
+
+**Hearthborn does not send your data to third-party services.** It only sends the data required to connect to and play on the official **Haven & Hearth servers**.
 
 ## Support development
 
-Hearthborn is free for everyone. Donations are voluntary and help support continued development; they do not unlock exclusive features or in-game advantages.
+Hearthborn is free for everyone. Donations are voluntary and help support development; they do not unlock exclusive features or provide in-game advantages.
 
 [**Support Hearthborn on Buy Me a Coffee**](https://buymeacoffee.com/hearthborn_client)
 
 ## Credits and license
 
 Hearthborn is an independent, unofficial project based on the Haven & Hearth client. The original game and client belong to their respective authors. Upstream license obligations remain applicable; consult the original client for its license terms.
+
+## Screenshots
+
+For interface screenshots, feature demonstrations, and illustrated guides, visit the **[documentation website](https://jagy2014.github.io/hearthborn-client/#screenshots)**.
