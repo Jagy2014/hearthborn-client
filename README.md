@@ -93,16 +93,44 @@ Use successive **Star Gaze** observations to narrow the estimated meteorite sear
 
 *The triangulation view estimates an area, not an exact impact location.*
 
-### 🗺️ Exploration, mapping, and pathfinding
+### 🧭 Improved pathfinding
 
-- Route around nearby loaded obstacles with configurable automatic pathfinding.
-- View map grid, claim borders, marker names, travel trails, and highlighted terrain.
-- Open a detached map and review saved meteorite measurements.
-- Display mine-support ranges, mining annotations, and configurable object radii.
+Hearthborn reworks the default pathfinding to make everyday movement smoother and less intrusive. It is **enabled by default**, but you can turn it off in the settings if you prefer direct movement controls.
 
-![Map and display settings](docs/images/map.jpg)
+- Automatically navigates around nearby obstacles without getting in the way of normal play.
+- **Not used during combat, while swimming, or when traveling by boat.**
+- **Optional horseback pathfinding** can be enabled separately. It is off unless you choose to use it.
+
+### 🗺️ Redesigned mapping and exports
+
+The mapping system has been reworked, including how explored map data is saved and exchanged between clients.
+
+- **Export and import map data** to transfer your explored map to another client.
+- **Export the map as an image** for sharing or reference.
+- **Export map tiles** when you need the individual tile images.
+- No separate disk-recording mode: unnecessary continuous writing to disk has been left out.
+
+### 📍 Map icons and display settings
+
+Map markers have been expanded with many additional icons, making it easier to recognize objects and points of interest. Animal indicators can also provide **animal sounds**.
+
+The **Map Display Settings** have been redesigned, and the map includes a dedicated **Icon Settings** control for managing the icon display.
+
+![Map icons and display settings](docs/images/map.jpg)
+
+The map tools also include mine-support ranges, mining annotations, and configurable object radii.
 
 [Mining safety and annotations](docs/features/mining-safety.en.md)
+
+### 🔎 Redesigned action search
+
+The default **Action Search** has been reworked into a more useful action browser. Find commands without navigating through multiple menu levels, and review the selected action directly.
+
+- Search across actions, crafting, and construction.
+- Switch between **Favorites** and **History**.
+- Mark frequently used actions as favorites.
+- See an action's menu path and, for supported crafting recipes, the ingredients and crafting details.
+- Use **Search by ingredient** to find recipes based on materials.
 
 ### ⚔️ Combat assistance
 
