@@ -12,9 +12,9 @@
 
 ![Hearthborn Client](docs/images/hearthborn.png)
 
-Hearthborn is an independent, unofficial Haven & Hearth client with a customizable interface and tools for village management, production, exploration, mining, and everyday play.
+Built on top of the original (vanilla) Haven & Hearth client, Hearthborn is an independent, unofficial custom client focused on improving everyday gameplay through a customizable interface and tools for village management, production, exploration, mining, and more.
 
-**Languages:** English and Russian · **Technology:** Java 22 / Apache Ant
+**Languages:** English and Russian (approximately 98% of the client translated into Russian) · **Technology:** Java 22 / Apache Ant
 
 ## Features
 
@@ -58,6 +58,10 @@ To explore the available features and controls, start with the [interface guide]
 Detailed guides with screenshots are available in [`docs/features/`](docs/features/). Feature links above lead directly to the relevant pages or sections.
 
 **Note:** Timers, quality information, maps, and automation rely on data actually observed by the client. They do not reveal unexplored information or guarantee successful actions.
+
+## Privacy
+
+Hearthborn is intended to use the standard Haven & Hearth server connection without sending gameplay data to third-party services. This describes the project's intended behavior, not an independently verified network audit. Review the source code and any future integrations before relying on this as a security guarantee.
 
 ## Support development
 
