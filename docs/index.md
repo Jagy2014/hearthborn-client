@@ -1,5 +1,3 @@
-<div align="center">
-
 # Hearthborn Client
 
 **A custom client for Haven & Hearth**
@@ -7,8 +5,6 @@
 *Plan your village. Simplify production. Explore with better tools.*
 
 [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [Documentation](#documentation) · [Support development](#support-development)
-
-</div>
 
 ![Hearthborn Client](images/hearthborn.png)
 
