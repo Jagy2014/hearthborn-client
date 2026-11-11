@@ -63,9 +63,6 @@ plugins:
             Mining & combat: Шахты и бой
             Minesweeper & mining safety: Сапёр и безопасность шахт
             Combat Assistance: Помощь в бою
-            Additional guides: Дополнительные руководства
-            Exploration overview: Обзор исследования
-            Production overview: Обзор производства
 markdown_extensions:
   - admonition
   - attr_list
@@ -94,6 +91,3 @@ nav:
   - Mining & combat:
       - Minesweeper & mining safety: features/mining-safety.md
       - Combat Assistance: features/combat.md
-  - Additional guides:
-      - Exploration overview: features/exploration.md
-      - Production overview: features/production.md
