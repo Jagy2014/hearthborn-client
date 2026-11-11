@@ -1,11 +1,9 @@
-# Map icons and display settings
+# Session trail
 
-Map markers have been expanded with many additional icons, making it easier to recognize objects and points of interest. Animal indicators can also provide **animal sounds**.
+Enable **Show Session Trail** to see the route you have walked directly on the map during your **current play session**. The trail shows where you have traveled since the session began, making it easier to retrace your steps while exploring.
 
-The **Map Display Settings** have been redesigned, and the map includes a dedicated **Icon Settings** control for managing the icon display.
+The route is **temporary and is not saved or recorded to disk**. It is not a persistent travel history and does not carry over to another session.
 
-![Map icons and display settings](../images/map.jpg)
-
-The map tools also include mine-support ranges and configurable object radii.
+![Session trail shown on the map](../images/session-trail.jpg)
 
 [Back to features](../../README.md#features)
