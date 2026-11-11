@@ -4,7 +4,7 @@
 
 *Plan your village. Simplify production. Explore with better tools.*
 
-[Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [Documentation](#documentation) · [Support development](#support-development)
+[Features](#features) · [Documentation](#documentation) · [Privacy](#privacy) · [Support development](#support-development) · [Screenshots](#screenshots)
 
 ![Hearthborn Client](images/hearthborn.png)
 
@@ -44,20 +44,6 @@ Explore each feature in its own illustrated guide.
 - [**Reimagined Minesweeper**](https://jagy2014.github.io/hearthborn-client/features/mining-safety/) — Mark cave tiles, inspect dust clues, and manage mining safety options.
 - [**Combat Assistance**](https://jagy2014.github.io/hearthborn-client/features/combat/) — Animal auto-combat and a compact combat interface.
 
-## Screenshots
-
-A quick look at Hearthborn's interface and tools. Click a feature name for the full guide.
-
-| [Customizable interface](https://jagy2014.github.io/hearthborn-client/features/interface/) | [Village & claim planning](https://jagy2014.github.io/hearthborn-client/features/claim-plan/) |
-| --- | --- |
-| ![Customizable Hearthborn interface](images/interface5.png) | ![Village planner](images/village-plan.jpg) |
-| [Quality Roster](https://jagy2014.github.io/hearthborn-client/features/quality-roster/) | [Map icons & display settings](https://jagy2014.github.io/hearthborn-client/features/map-icons/) |
-| ![Quality Roster](images/quality-roster.png) | ![Map tools](images/map.jpg) |
-| [Cheese production](https://jagy2014.github.io/hearthborn-client/features/cheese/) | [Automation & Xtensions](https://jagy2014.github.io/hearthborn-client/features/scripts/) |
-| ![Cheese production chart](images/cheese-2.jpg) | ![Xtensions menu](images/xtensions.png) |
-| [Cheese aging on racks](https://jagy2014.github.io/hearthborn-client/features/cheese/) | [Cupboard contents](https://jagy2014.github.io/hearthborn-client/features/storage/) |
-| ![Cheese racks and aging stages](images/cheese-1.jpg) | ![Item icons above cupboards](images/cupboard-info.jpg) |
-
 ## Getting started
 
 Hearthborn is an unofficial custom client for Haven & Hearth. Installation and launcher instructions will be linked here when a verified distribution is available.
@@ -83,3 +69,17 @@ Hearthborn is free for everyone. Donations are voluntary and help support contin
 ## Credits and license
 
 Hearthborn is an independent project based on the Haven & Hearth client. Original game and client credits belong to their respective authors. Refer to the upstream client for its original license terms.
+
+## Screenshots
+
+A quick look at Hearthborn's interface and tools. Click a feature name for the full guide.
+
+| [Customizable interface](https://jagy2014.github.io/hearthborn-client/features/interface/) | [Village & claim planning](https://jagy2014.github.io/hearthborn-client/features/claim-plan/) |
+| --- | --- |
+| ![Customizable Hearthborn interface](images/interface5.png) | ![Village planner](images/village-plan.jpg) |
+| [Quality Roster](https://jagy2014.github.io/hearthborn-client/features/quality-roster/) | [Map icons & display settings](https://jagy2014.github.io/hearthborn-client/features/map-icons/) |
+| ![Quality Roster](images/quality-roster.png) | ![Map tools](images/map.jpg) |
+| [Cheese production](https://jagy2014.github.io/hearthborn-client/features/cheese/) | [Automation & Xtensions](https://jagy2014.github.io/hearthborn-client/features/scripts/) |
+| ![Cheese production chart](images/cheese-2.jpg) | ![Xtensions menu](images/xtensions.png) |
+| [Cheese aging on racks](https://jagy2014.github.io/hearthborn-client/features/cheese/) | [Cupboard contents](https://jagy2014.github.io/hearthborn-client/features/storage/) |
+| ![Cheese racks and aging stages](images/cheese-1.jpg) | ![Item icons above cupboards](images/cupboard-info.jpg) |
