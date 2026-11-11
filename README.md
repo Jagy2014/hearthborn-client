@@ -10,7 +10,7 @@
 
 </div>
 
-![Hearthborn Client](hearthborn.png)
+![Hearthborn Client](docs/images/hearthborn.png)
 
 Hearthborn brings practical tools for village management, crafting, exploration, and everyday play into one client. It includes a village planner, cheese production assistant, automatic timers, meteorite triangulation, improved pathfinding, and configurable interface layouts.
 
