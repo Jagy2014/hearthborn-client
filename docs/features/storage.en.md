@@ -2,7 +2,7 @@
 
 ## Cupboard contents at a glance
 
-A cupboard automatically displays an icon of the **item it contains the most of**, so you can see its main contents without opening it. If you prefer a different icon, you can **choose your own item icon in the cupboard's settings**.
+A cupboard automatically displays an icon of the **item it contains the most of**, so you can see its main contents without opening it. **You must open the cupboard at least once for this feature to work**, so the client can observe its contents. If you prefer a different icon, you can **choose your own item icon in the cupboard's settings**.
 
 ![Cupboard contents shown above cupboards](../images/cupboard-info.jpg)
 
