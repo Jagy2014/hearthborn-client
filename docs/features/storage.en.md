@@ -1,9 +1,9 @@
-# Automation and everyday helpers
+# Storage and production visibility
 
-The **Xtensions** menu includes helpers for production, farming, travel, mining, and other repetitive tasks. Examples include filling cheese trays, adding fuel to supported objects, harvesting dreams, handling trellis plants, and deploying travel equipment.
+- Display observed cupboard contents as item icons above cupboards.
+- Identify observed stone, clay, brick, metal, and ore stockpiles visually.
+- Show cheese rack labels, selected object radii, and useful production information in the world.
 
-![Xtensions action menu](../images/xtensions.png)
-
-[Automation requirements and limitations](scripts.en.md)
+![Storage and cupboard labels](../images/cupboard-info.jpg)
 
 [Back to features](../../README.md#features)
