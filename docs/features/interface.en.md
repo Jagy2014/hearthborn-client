@@ -41,6 +41,8 @@ Drag a toolbar by its background or gaps between buttons. When an icon occupies 
 
 Move the character portrait and status bars together to the right side if you prefer a mirrored HUD. Surrounding indicators adjust to the new position. Show or hide supported indicators, including food and hunger meters, water and tea, study reminders, FPS/ping, and other utility widgets.
 
+**Character portrait shortcuts:** **Left-click (LMB)** the portrait to open the **Equipment** window. **Right-click (RMB)** the portrait to open the **Character Sheet** window.
+
 ![Portrait and status indicators on the right](../images/classic%20menu%20portrait%20right.png)
 
 ## Adjust appearance and scale
