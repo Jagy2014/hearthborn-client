@@ -1,0 +1,1672 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the Hearthborn custom Haven & Hearth client">
+      
+      
+      
+        <link rel="canonical" href="https://jagy2014.github.io/hearthborn-client/ru/features/interface/">
+      
+      
+        <link rel="prev" href="../../">
+      
+      
+        <link rel="next" href="../action-search/">
+      
+      
+        
+          <link rel="alternate" href="../../../features/interface/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="ru">
+        
+      
+      
+      <link rel="icon" href="../../../images/hearthborn.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Настраиваемый интерфейс - Hearthborn Client</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hearthborn" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../" title="Hearthborn Client" class="md-header__button md-logo" aria-label="Hearthborn Client" data-md-component="logo">
+      
+  <img src="../../../images/hearthborn.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hearthborn Client
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Настраиваемый интерфейс
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Выберите язык">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../features/interface/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ru" class="md-select__link">
+              Русский
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jagy2014/hearthborn-client" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Jagy2014/hearthborn-client
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Hearthborn Client" class="md-nav__button md-logo" aria-label="Hearthborn Client" data-md-component="logo">
+      
+  <img src="../../../images/hearthborn.png" alt="logo">
+
+    </a>
+    Hearthborn Client
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jagy2014/hearthborn-client" title="Перейти к репозиторию" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Jagy2014/hearthborn-client
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Интерфейс и управление
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Интерфейс и управление
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Настраиваемый интерфейс
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Настраиваемый интерфейс
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inspect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Улучшенный Inspect (осмотр)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Виджеты интерфейса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Содержимое шкафов с первого взгляда
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        План дома
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Скрытие деревьев и кустов
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выбор меню действий
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Выбор меню действий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расположение классического меню
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Боковое меню
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Перемещаемое круговое меню
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Панели быстрого доступа
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Портрет и индикаторы состояния
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Оформление и масштаб
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обновлённое окно персонажа (Character Sheet)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Окно экипировки и бонусы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Журнал заданий, чат и экипировка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Компактный режим
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Примеры оформления
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../action-search/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поиск действий
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Производство и управление
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Производство и управление
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Хранилища и склады
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-roster/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Журнал качества
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cattle-roster/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Журнал животных
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../claim-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Планировщик деревни и владений
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheese/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Помощник сыровара
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автоматические таймеры
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Автоматизация и Xtensions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Навигация и исследование
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Навигация и исследование
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pathfinding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поиск пути
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Карта и экспорт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../session-trail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Маршрут сессии
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../map-icons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Значки и настройки карты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meteorite/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Поиск метеоритов
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Шахты и бой
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Шахты и бой
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mining-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Сапёр и безопасность шахт
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Помощь в бою
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inspect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Улучшенный Inspect (осмотр)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Виджеты интерфейса
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Содержимое шкафов с первого взгляда
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        План дома
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Скрытие деревьев и кустов
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выбор меню действий
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Выбор меню действий">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Расположение классического меню
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Боковое меню
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Перемещаемое круговое меню
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Панели быстрого доступа
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Портрет и индикаторы состояния
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Оформление и масштаб
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обновлённое окно персонажа (Character Sheet)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Окно экипировки и бонусы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Журнал заданий, чат и экипировка
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Компактный режим
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Примеры оформления
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="hearthborn">Переработанный интерфейс Hearthborn<a class="headerlink" href="#hearthborn" title="Permanent link">&para;</a></h1>
+<p>Hearthborn предлагает полностью настраиваемый игровой интерфейс. Можно оставить привычную сетку действий Haven &amp; Hearth, использовать раскрывающуюся боковую панель и расположить остальные элементы так, как удобно на вашем экране.</p>
+<h2 id="inspect">Улучшенный Inspect (осмотр)<a class="headerlink" href="#inspect" title="Permanent link">&para;</a></h2>
+<p>Действие <strong>Inspect</strong> показывает дополнительную информацию об объектах мира. Например, при осмотре здания можно увидеть <strong>материалы, использованные при его строительстве</strong>, включая разные виды камня, дерева и металла.</p>
+<p><strong>Удерживайте Shift при осмотре</strong>, чтобы увидеть технические сведения, в том числе <strong>внутриигровое имя ресурса</strong>. Это помогает определить точный игровой ресурс, а не только его видимое название.</p>
+<p><img alt="Материалы, использованные для строительства дома" src="../../../images/inspect.png" /></p>
+<h2 id="_1">Виджеты интерфейса<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Hearthborn предлагает компактные <strong>виджеты</strong> для часто используемых окон и информации. Они сохраняют доступ к важным функциям, не заставляя постоянно держать большие окна открытыми.</p>
+<p><img alt="Виджеты карты, изучения, чата, плана владений, заданий и часов" src="../../../images/widgets.png" /></p>
+<ul>
+<li><strong>Карта:</strong> карту можно полностью закрыть. При этом остаётся <strong>виджет карты</strong>; нажмите его, чтобы снова открыть карту.</li>
+<li><strong>Чат:</strong> после закрытия окна появляется <strong>виджет чата</strong>. Индикатор показывает непрочитанные сообщения; нажатие открывает чат. В настройках можно включить <strong>автоматическое открытие чата при новом сообщении</strong>. <strong>Системные сообщения не считаются</strong> новыми сообщениями чата и не вызывают автоматического открытия.</li>
+<li><strong>Изучение (Study):</strong> при наличии свободных ячеек в окне изучения появляется <strong>значок мозга</strong>. Нажмите его, чтобы открыть <strong>компактное окно изучения</strong>.</li>
+<li><strong>План владений:</strong> открывает <strong>план деревни или личного владения</strong>.</li>
+<li><strong>Журнал заданий:</strong> нажатие открывает журнал. При <strong>наведении</strong> показываются активное задание и его цели.</li>
+<li><strong>Часы:</strong> <strong>наведите</strong> курсор, чтобы увидеть дополнительные сведения о мире и сессии. В настройках можно включить <strong>FPS и пинг сервера</strong>; они появятся <strong>справа от часов</strong>.</li>
+</ul>
+<h2 id="_2">Содержимое шкафов с первого взгляда<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Hearthborn показывает <strong>значок предмета над каждым шкафом</strong>, автоматически выбирая предмет, которого <strong>внутри больше всего</strong>. Достаточно <strong>один раз открыть шкаф</strong>, чтобы клиент узнал его содержимое. В настройках шкафа можно вручную выбрать другой значок, изменить его размер и цвет.</p>
+<p><img alt="Значки предметов над шкафами" src="../../../images/cupboard-info.jpg" /></p>
+<p>Эти ранее полученные сведения также могут отображаться <strong>на плане дома</strong>, описанном ниже. Сам план данные не собирает.</p>
+<h2 id="_3">План дома<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>Исходная карта внутри помещения показывала текущий дом квадратом, а соседние дома — квадратами на чёрном фоне. Hearthborn заменяет этот вид <strong>планом помещения</strong> в той же области карты.</p>
+<p>План показывает расположение комнат текущего дома и может отображать <strong>содержимое шкафов, открытых хотя бы один раз</strong>. Сам план не собирает эти сведения: <strong>отдельный скрипт записывает содержимое шкафов</strong>, а план использует уже собранную информацию. Для ни разу не открывавшихся шкафов данных о содержимом нет.</p>
+<p>Теперь внутренняя карта помогает находить ранее осмотренные предметы, не открывая каждый шкаф заново.</p>
+<p><img alt="План дома с ранее наблюдавшимся содержимым шкафов" src="../../../images/room%20plan.png" /></p>
+<h2 id="_4">Скрытие деревьев и кустов<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>Нажмите <strong>Ctrl + H</strong>, чтобы скрыть деревья, сохранив видимыми их <strong>пни</strong>. Это помогает видеть землю и объекты за листвой и не терять расположение деревьев.</p>
+<p>По умолчанию <strong>Ctrl + H скрывает только деревья</strong>. Чтобы скрывать <strong>также кусты</strong>, включите соответствующую настройку. У кустов нет собственных пней, поэтому скрытый куст обозначается <strong>маленьким пнём шелковицы</strong>.</p>
+<p>Hearthborn также показывает <strong>стадии роста деревьев</strong>, чтобы было видно, насколько они выросли.</p>
+<p><strong>Деревья и кусты скрыты</strong></p>
+<p><img alt="Скрытые деревья с видимыми пнями" src="../../../images/hide%20trees.png" /></p>
+<p><strong>Деревья и кусты видны</strong></p>
+<p><img alt="Обычное отображение деревьев и кустов" src="../../../images/hide%20trees%202.png" /></p>
+<h2 id="_5">Выбор меню действий<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p><strong>Классическое меню (сетка)</strong> сохраняет привычную иерархию действий 4×4 и навигацию. Его можно разместить в любом нижнем углу.</p>
+<h3 id="_6">Расположение классического меню<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>Классическое меню располагается <strong>слева внизу</strong> или <strong>справа внизу</strong>, независимо от положения портрета и полос состояния.</p>
+<p><strong>Быстрый возврат в главное меню:</strong> вместо последовательных нажатий Back по всем подменю <strong>нажмите правой кнопкой мыши (RMB) на кнопку Back</strong>, чтобы сразу перейти на верхний уровень меню действий. Обычный левый щелчок возвращает только на один уровень.</p>
+<p><strong>Классическое меню слева</strong></p>
+<p><img alt="Сетка действий в нижнем левом углу" src="../../../images/classic%20menu%20left.png" /></p>
+<p><strong>Классическое меню справа</strong></p>
+<p><img alt="Сетка действий в нижнем правом углу" src="../../../images/classic%20menu%20right.png" /></p>
+<h3 id="_7">Боковое меню<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p><strong>Боковое меню (Sidebar)</strong> заменяет сетку вертикальным списком категорий действий. Нажмите категорию, чтобы раскрыть действия рядом с панелью; подкатегории раскрываются на месте. Переключение между вариантами находится в <strong>Options → UI settings</strong>.</p>
+<p><img alt="Боковое меню с раскрытыми действиями" src="../../../images/interface-sidebar.png" /></p>
+<h2 id="_8">Перемещаемое круговое меню<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p><strong>Круговое меню действий</strong> можно перемещать по экрану, как дополнительные панели инструментов. Оно <strong>остаётся там, где вы его разместили</strong>.</p>
+<p>Чтобы переместить меню, <strong>перетащите промежуток между кнопками</strong> либо <strong>удерживайте Alt (Option на Mac) и перетащите кнопку</strong>. При таком перетаскивании с Alt/Option <strong>кнопка не активируется</strong>.</p>
+<p>Пока вы не переместили меню, оно остаётся в <strong>исходном углу</strong>.</p>
+<p><img alt="Перемещаемое круговое меню" src="../../../images/radial%20menu.png" /></p>
+<p><img alt="Другой вид кругового меню" src="../../../images/radial%20menu%202.png" /></p>
+<h2 id="_9">Панели быстрого доступа<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<p>Панели функциональных клавиш, цифр и дополнительные панели можно перемещать по экрану и располагать горизонтально или вертикально. Поддерживаемые панели также можно закреплять у нижнего края. Размещайте их вместе или отдельно, освобождая место для других окон.</p>
+<p>Перетаскивайте панель за фон или промежутки между кнопками. Если в нужном месте находится значок, удерживайте <strong>Alt/Option</strong> при перетаскивании. Панели действий притягиваются друг к другу, позволяя удобно собирать их в группы.</p>
+<p><img alt="Горизонтальные панели инструментов" src="../../../images/interface2.png" /></p>
+<p><img alt="Вертикальные панели и другое положение портрета" src="../../../images/interface4.png" /></p>
+<h2 id="_10">Портрет и индикаторы состояния<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
+<p>Портрет персонажа и полосы состояния можно вместе перенести вправо, получив зеркальный интерфейс. Окружающие индикаторы подстроятся под новое расположение. Поддерживаемые индикаторы можно показывать или скрывать, включая питание и голод, воду и чай, напоминания об изучении, FPS/пинг и другие вспомогательные виджеты.</p>
+<p><strong>Быстрые действия с портретом:</strong> <strong>левый щелчок (LMB)</strong> открывает окно <strong>Equipment</strong>, <strong>правый щелчок (RMB)</strong> — <strong>Character Sheet</strong>.</p>
+<p><strong>Вода и автопитьё:</strong> нажмите <strong>индикатор запаса воды</strong>, чтобы выпить вручную. Также в <strong>Settings</strong> можно включить <strong>Auto-drink</strong> и выбрать порог усталости, при котором персонаж автоматически пьёт: <strong>25%, 50% или 75%</strong>.</p>
+<p><img alt="Портрет и индикаторы состояния справа" src="../../../images/classic%20menu%20portrait%20right.png" /></p>
+<h2 id="_11">Оформление и масштаб<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>В <strong>Options → UI settings</strong> можно менять масштаб панелей и портрета, включать или отключать декоративные золотые рамки поддерживаемых панелей, а также выбирать светлый вариант интерфейса. Это позволяет настроить как компактное рабочее пространство, так и крупные элементы управления.</p>
+<p><img alt="Настройки интерфейса и классический HUD" src="../../../images/interface5.png" /></p>
+<p><img alt="Панели в разных положениях" src="../../../images/interface3.png" /></p>
+<h2 id="character-sheet">Обновлённое окно персонажа (Character Sheet)<a class="headerlink" href="#character-sheet" title="Permanent link">&para;</a></h2>
+<p><strong>Character Sheet</strong> представляет развитие персонажа и сведения о питании в более удобном виде. Таблица <strong>Base Attributes</strong> показывает базовые значения, положительные и отрицательные модификаторы и итоговые показатели рядом друг с другом. <strong>Food Satiations</strong> содержит типы пищи и текущие проценты насыщения, а <strong>Food Event Points</strong> и <strong>Hunger Level</strong> представлены заметными полосами прогресса. Привычные значки категорий окна персонажа остаются доступными внизу.</p>
+<p><img alt="Окно персонажа с атрибутами, насыщением и полосами прогресса" src="../../../images/Character%20Sheet.png" /></p>
+<h2 id="_12">Окно экипировки и бонусы<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h2>
+<p>В окне <strong>Equipment</strong> появилась панель <strong>Equipment bonuses</strong> с суммарными бонусами надетых предметов. Она показывает модификаторы характеристик и навыков, способности к обучению, места в инвентаре, отклонения и поглощения урона бронёй, <strong>Concealment (Int × Ste)</strong> и <strong>Detection (Prc × Exp)</strong>. Это позволяет оценить влияние экипировки без отдельного осмотра каждого предмета.</p>
+<p><img alt="Окно экипировки с суммарными бонусами" src="../../../images/equipment.png" /></p>
+<h2 id="_13">Журнал заданий, чат и экипировка<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<p><strong>Журнал заданий</strong> — перемещаемое окно, в котором видны активные задания и цели. Чат можно перемещать и изменять его размер. Панель экипировки можно располагать вертикально или горизонтально, настраивая количество видимых ячеек. Чат, журнал заданий и карта притягиваются друг к другу и к краям экрана. Панели действий также притягиваются друг к другу.</p>
+<p><img alt="Классическое расположение в нижнем углу" src="../../../images/interface.png" /></p>
+<p><img alt="Журнал заданий с активными целями" src="../../../images/quest-log.jpg" /></p>
+<h2 id="_14">Компактный режим<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<p>Нажмите <strong>Alt+Space</strong>, чтобы переключить компактный интерфейс. Во время боя клиент может автоматически скрывать второстепенные окна и панели, чтобы не заслонять происходящее. Сочетание работает и вне боя. Полный интерфейс можно восстановить без потери выбранного расположения.</p>
+<p><strong>Компактный интерфейс:</strong></p>
+<p><img alt="Компактный интерфейс со скрытыми второстепенными панелями" src="../../../images/compact%20ui.png" /></p>
+<p><strong>Компактный интерфейс в бою:</strong></p>
+<p><img alt="Компактный интерфейс во время боя" src="../../../images/combat-ui.jpg" /></p>
+<h2 id="_15">Примеры оформления<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
+<p>Скриншоты выше показывают разные варианты настройки, а не фиксированные шаблоны. Вы можете сочетать их элементы и создать собственное расположение интерфейса.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
