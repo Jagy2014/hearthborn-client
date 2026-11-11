@@ -88,6 +88,8 @@ The **radial action menu** can be **dragged to another position on the screen**,
 
 ![Movable radial action menu](../images/radial%20menu.png)
 
+![Another view of the radial action menu](../images/radial%20menu%202.png)
+
 ## Arrange your toolbars
 
 F-key, numeric, and additional toolbars can be moved around the screen and arranged horizontally or vertically. Supported bars can also be attached to the bottom edge. Keep them together or separate them to make room for other windows.
