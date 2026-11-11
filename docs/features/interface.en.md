@@ -12,9 +12,13 @@ The classic menu can sit in the **bottom-left** or **bottom-right** corner, with
 
 **Quick return to the main menu:** Instead of pressing Back repeatedly through each submenu, **right-click (RMB) the Back button** to jump directly to the top-level (home) action menu. A normal left-click still returns one level at a time.
 
-| Classic menu on the left | Classic menu on the right |
-| --- | --- |
-| ![Classic action grid in the bottom-left corner](../images/classic%20menu%20left.png) | ![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png) |
+**Classic menu on the left**
+
+![Classic action grid in the bottom-left corner](../images/classic%20menu%20left.png)
+
+**Classic menu on the right**
+
+![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png)
 
 
 **Sidebar menu** replaces the grid with a vertical list of action categories. Click a category to expand its actions beside the sidebar; subcategories expand in place. Switch between the two styles in **Options → UI settings**.
