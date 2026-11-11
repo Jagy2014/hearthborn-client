@@ -2,6 +2,8 @@
 
 Hearthborn adds a **Minesweeper-inspired annotation tool** for cave mining. It combines your own tile markings with dust clues observed from the game, helping you keep track of what you have checked while exploring underground.
 
+**Why Hearthborn's Minesweeper is different:** Similar tools exist in other Haven & Hearth clients, but I wasn't satisfied with how they worked, so I redesigned Minesweeper around my own approach: a practical way to mark cave tiles and interpret dust warnings, **not a system that pretends to know which tiles are safe**.
+
 The markings are a planning aid, **not a guarantee that a tile is safe to mine**. Hearthborn also has separate mining safety checks for supports and dangerous conditions.
 
 ![Mining support coverage and tile annotations](../images/mining-tools.jpg)
@@ -87,20 +89,3 @@ Use the map's display settings to highlight selected cave terrain and ore types 
 ---
 
 **In short:** Minesweeper is a way to record what you have observed and mark tiles for later. Automatic mining protection is a different feature with its own setting. Neither one replaces caution when mining.
-
----
-
-## Original README feature overview
-
-## 💣 Reimagined mining Minesweeper
-
-I've reworked the mining **Minesweeper** tool around how I believe it should work: a practical way to mark cave tiles and interpret dust warnings, rather than a system that pretends to know which tiles are safe.
-
-- **Mark tiles yourself:** Cycle through a red cross, green check, purple question mark, or no mark.
-- **Record dust clues automatically:** When the game reports a cave dust warning, the client displays a numbered clue from 1 to 8. Temporary clues expire after 30 minutes; you can pin them to keep them.
-- **Inspect nearby tiles:** Hover over a clue to highlight its eight neighboring tiles and review the conditions recorded when the dust appeared.
-- **Keep your notes:** Manual marks and pinned clues are saved with the map, while temporary observations disappear when you exit the client.
-
-The Minesweeper annotation cursor keeps marking clicks separate from mining actions. Automatic mining-stop protections remain an independent setting. **Clues help you plan, but they never guarantee that mining is safe.**
-
-[Mining safety and annotations](mining-safety.en.md)
