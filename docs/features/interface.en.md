@@ -2,6 +2,14 @@
 
 Hearthborn provides a fully configurable in-game interface. You can keep the familiar Haven & Hearth action grid, use an expandable sidebar, and arrange the surrounding panels to suit your screen and play style.
 
+## Cupboard contents at a glance
+
+Hearthborn displays an **item icon above each cupboard**, automatically choosing the item that is **most common inside**. You only need to **open the cupboard once** for the client to learn its contents. You can also choose a different icon manually in the cupboard's settings and adjust the indicator's size and color.
+
+![Item icons displayed above cupboards](../images/cupboard-info.jpg)
+
+The same previously observed cupboard information can also be displayed on the **room plan** described below. The room plan does not collect it itself.
+
 ## Room plan
 
 The original indoor map showed the current house as a square, with other nearby houses appearing as squares against a black background. Hearthborn replaces that view with a **room plan** in the same map area.
