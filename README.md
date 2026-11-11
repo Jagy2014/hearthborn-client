@@ -172,8 +172,6 @@ Stage 1 animal auto-combat selects supported attacks from your active deck durin
 
 ![Storage and cupboard labels](docs/images/cupboard-info.jpg)
 
-[Stockpile materials and ore icons](docs/features/stone-pile-colors.en.md)
-
 ### 🛠️ Automation and everyday helpers
 
 The **Xtensions** menu includes helpers for production, farming, travel, mining, and other repetitive tasks. Examples include filling cheese trays, adding fuel to supported objects, harvesting dreams, handling trellis plants, and deploying travel equipment.
