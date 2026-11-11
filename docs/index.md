@@ -66,7 +66,7 @@ To explore the available features and controls, start with the [interface guide]
 
 ## Documentation
 
-Detailed guides with screenshots are available in [`docs/features/`](features/). Feature links above lead directly to the relevant pages or sections.
+Detailed guides with screenshots are available throughout the documentation. Start with the [interface guide](features/interface.md) or [storage and stockpiles](features/storage.md), or use the feature links above to open individual guides.
 
 **Note:** Timers, quality information, maps, and automation rely on data actually observed by the client. They do not reveal unexplored information or guarantee successful actions.
 
