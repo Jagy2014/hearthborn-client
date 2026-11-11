@@ -113,12 +113,21 @@ Excel and HTML are viewing/export formats; use the plan-file export and import w
 
 ## Original README feature overview
 
-## 🧀 Cheese production assistant
+## 🏡 Village and claim planning
 
-Follow cheese progression for cow, sheep, and goat milk. Inspect aging stages and expected products, see labels on racks, and track observed batches in the **Cheese** tab of Timers.
+Keep a locally saved overview of visited village and personal-claim areas. Find and label observed objects, measure areas in tiles, switch levels, and export plans to HTML or Excel.
 
-![Cheese rack with aging stages](../images/cheese-1.jpg)
+![Village plan with object list](../images/village-plan.jpg)
 
-I also added a **cheese progression chart** to make it easier to plan cheese production and choose the right aging stages and locations.
+| # | Feature | How it appears in the plan |
+| --- | --- | --- |
+| **1** | **Named areas** | Add an area and give it a useful name, such as *Leather Storage*, to mark where hides or other materials are kept. |
+| **2** | **Named houses** | Rename a house in the plan. The same name also appears above the house in the game world. |
+| **3** | **Tree quality** | Trees recorded in the **Quality Journal** display their known quality on the plan. |
+| **4** | **Furnaces and smelters** | Production equipment is added to the plan automatically. Its quality is displayed when that value is recorded in the **Quality Journal**. |
+| **5** | **Village idol** | The village idol is shown as part of the settlement layout. |
+| **6** | **Chicken coops and rabbit hutches** | Animal-keeping structures are represented on the plan. |
+| **7** | **Tanning tubs** | Leather-processing tubs appear in their observed locations. |
+| **8** | **Drying racks** | Leather drying racks are shown as part of the production area. |
 
-![Cheese progression chart for production planning](../images/cheese-2.jpg)
+[Learn about village and claim plans](claim-plan.en.md)
