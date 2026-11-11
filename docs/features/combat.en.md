@@ -20,10 +20,10 @@ The compact combat interface temporarily hides nonessential windows and widgets 
 
 ## Original README feature overview
 
-## 📦 Storage and production visibility
+## ⚔️ Combat assistance
 
-- Display observed cupboard contents as item icons above cupboards.
-- Identify observed stone, clay, brick, metal, and ore stockpiles visually.
-- Show cheese rack labels, selected object radii, and useful production information in the world.
+Stage 1 animal auto-combat selects supported attacks from your active deck during an existing animal fight. A compact combat interface temporarily hides nonessential windows and widgets.
 
-![Storage and cupboard labels](../images/cupboard-info.jpg)
+![Compact animal combat interface](../images/combat-ui.jpg)
+
+**Alt+Space** toggles compact UI, including outside combat. Auto-combat does not engage targets, handle positioning, or fight other players for you.
