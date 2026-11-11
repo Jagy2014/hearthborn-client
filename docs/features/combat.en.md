@@ -2,7 +2,7 @@
 
 ## Animal auto-combat
 
-Stage 1 animal auto-combat selects supported attacks from your **active combat deck** during an **existing animal fight**.
+Stage 1 animal auto-combat is intended to help newer players with simpler encounters, such as ants and bats. During an **existing animal fight**, it automatically uses supported **attacks** against the target. **Combat moves are not yet used**; further development is planned.
 
 It does **not** engage targets, position your character, or fight other players for you.
 
