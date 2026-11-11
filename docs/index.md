@@ -72,7 +72,7 @@ Detailed guides with screenshots are available throughout the documentation. Sta
 
 ## Privacy
 
-Hearthborn is intended to use the standard Haven & Hearth server connection without sending gameplay data to third-party services. This describes the project's intended behavior, not an independently verified network audit. Review the source code and any future integrations before relying on this as a security guarantee.
+**Hearthborn does not send your data to third-party services.** It only sends the data required to connect to and play on the official **Haven & Hearth servers**. This describes the client's intended behavior and has not been independently verified by a network audit.
 
 ## Support development
 
