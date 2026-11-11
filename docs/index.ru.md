@@ -24,6 +24,7 @@ Hearthborn создан на основе оригинального (vanilla) �
 ### ⚙️ Производство и управление
 
 - [**Журнал качества**](https://jagy2014.github.io/hearthborn-client/ru/features/quality-roster/) — запись качества объектов и отображение известных значений на планах.
+- [**Журнал животных (Cattle Roster)**](https://jagy2014.github.io/hearthborn-client/ru/features/cattle-roster/) — обновлённый интерфейс учёта животных и автоматическое удаление погибших или забитых животных.
 - [**Планировщик деревни и владений**](https://jagy2014.github.io/hearthborn-client/ru/features/claim-plan/) — автоматическое нанесение обнаруженных построек на план, названия областей, измерение клеток, экспорт и импорт планов.
 - [**Помощник сыровара**](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) — стадии созревания сыров, подписи на стеллажах и схема развития сыров.
 - [**Автоматические таймеры**](https://jagy2014.github.io/hearthborn-client/ru/features/timers/) — таймеры производства, сыров, осадных сооружений, владений и ручные таймеры.
