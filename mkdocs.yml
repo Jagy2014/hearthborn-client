@@ -76,11 +76,11 @@ nav:
       - Customizable interface: features/interface.md
       - Action Search: features/action-search.md
   - Village & production:
+      - Storage & stockpiles: features/storage.md
       - Quality Roster: features/quality-roster.md
       - Village & Claim Planner: features/claim-plan.md
       - Cheese Assistant: features/cheese.md
       - Automatic Timers: features/timers.md
-      - Storage & stockpiles: features/storage.md
       - Automation & Xtensions: features/scripts.md
   - Navigation & exploration:
       - Improved Pathfinding: features/pathfinding.md
