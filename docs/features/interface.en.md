@@ -10,6 +10,8 @@ The room plan displays the layout of the current house and can show the **conten
 
 This gives the indoor map a practical purpose: seeing where previously inspected items are stored without opening every cupboard again.
 
+![Room plan showing previously observed cupboard contents](../images/room%20plan.png)
+
 ## Choose your action menu
 
 **Classic (grid) menu** preserves the familiar 4×4 action hierarchy and navigation. Position it in either bottom corner.
