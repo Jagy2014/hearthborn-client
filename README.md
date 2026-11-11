@@ -121,6 +121,14 @@ The mapping system has been reworked, including how explored map data is saved a
 - **Export map tiles** when you need the individual tile images.
 - No separate disk-recording mode: unnecessary continuous writing to disk has been left out.
 
+### 👣 Session trail
+
+Enable **Show Session Trail** to see the route you have walked directly on the map during your **current play session**. The trail shows where you have traveled since the session began, making it easier to retrace your steps while exploring.
+
+The route is **temporary and is not saved or recorded to disk**. It is not a persistent travel history and does not carry over to another session.
+
+![Session trail shown on the map](docs/images/session-trail.jpg)
+
 ### 📍 Map icons and display settings
 
 Map markers have been expanded with many additional icons, making it easier to recognize objects and points of interest. Animal indicators can also provide **animal sounds**.
