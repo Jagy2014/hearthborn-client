@@ -4,7 +4,7 @@ The **Quality Roster** keeps a journal of quality values observed on objects and
 
 ![Quality Roster](../images/quality-roster.png)
 
-## Two Q actions
+## Two Q buttons in Xtensions menu
 
 - **Q:** Open the Quality Roster and browse recorded entries, including buildings, trees, seeds, saplings, and barrels.
 - **Q with an arrow:** Activate the quality-recording cursor. Select an object to read its quality and record it in the journal.
