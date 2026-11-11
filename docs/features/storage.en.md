@@ -52,6 +52,30 @@ A stockpile decides what it accepts and does not distinguish between types of st
 
 For container transfers, the client only selects matching item names from the **same inventory or bag**. An open chest, cupboard, or table can receive the transfer. Different items, such as granite and basalt, are not transferred together. You can change the shortcut in **Keyboard Settings → “Transfer identical items (with click)”**.
 
+### Matching items: inventory and bags
+
+Use **Shift + Ctrl + click** to transfer every item with the same name **from the inventory or bag you clicked in**. **Left-click** processes the highest-quality items first; **right-click** starts with the lowest quality. Change the shortcut under **Keyboard Settings → “Transfer identical items (with click)”**.
+
+When transferring from a **bag** to an open chest, cupboard, or crate, items are moved **one at a time**: the server cannot take them directly out of the bag. When you click a **stack in the main inventory**, its contents are transferred too, not just the icon at the top.
+
+### Stockpile Take control
+
+At the bottom of the stockpile window, enter an amount and press **Take**. An **empty field or 0** takes everything; a **positive number** takes exactly that many items, if available.
+
+The mouse wheel over a stockpile still deposits or takes **one item at a time**. Hold **Shift** while scrolling to move items in batches.
+
+### Inventory buttons and item groups
+
+- **Stack** combines matching items into stacks; **Unstack** separates them.
+- **Sort** with **left-click** puts higher-quality items first; **right-click** puts lower-quality items first. **Large items stay in place**.
+- The **item group list on the right** provides shortcuts: **left-click** takes the best-quality item in the group, **Shift + left-click** transfers it, **Ctrl + left-click** drops it, and **right-click** opens its action.
+
+### Main inventory: selective dropping
+
+The **drop button** toggles automatic dropping of selected item types. **Right-click the button** to choose which types to drop. **Quality is not considered**.
+
+**Keep the cursor empty** before sorting, stacking or unstacking, or using the matching-item transfer shortcut.
+
 ### Other production interactions
 
 **Tar kiln:** Right-click the kiln and choose **Collect coal** to collect all finished coal in one action. If it is the only menu option, **Ctrl + right-click** can select it immediately when **“Ctrl selects a single menu option”** is enabled in the menu color settings.
