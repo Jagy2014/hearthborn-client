@@ -46,3 +46,16 @@ Press **Alt+Space** to toggle compact UI. During combat, the client can automati
 
 The screenshots above demonstrate different configurations, not fixed presets. You can mix their arrangements to build your own layout.
 
+---
+
+## Original README feature overview
+
+## 📒 Quality roster
+
+Keep a **quality journal** for objects and resources you encounter, so useful quality values are easy to find later.
+
+- **Q button:** Opens the **Quality roster**, where you can browse recorded entries across categories such as buildings, trees, seeds, saplings, and barrels.
+- **Q with an arrow:** Activates the quality-recording tool. Use it on an object to read its quality and add the observation to the journal.
+- **Quality on your plans:** Recorded object quality can also be displayed directly on the **village plan** or **personal claim plan**, connecting your journal entries with their locations.
+
+![Quality roster with recorded object qualities](../images/quality-roster.png)
