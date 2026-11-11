@@ -72,7 +72,7 @@ Detailed guides with screenshots are available throughout the documentation. Sta
 
 ## Privacy
 
-**Hearthborn does not send your data to third-party services.** It only sends the data required to connect to and play on the official **Haven & Hearth servers**. This describes the client's intended behavior and has not been independently verified by a network audit.
+**Hearthborn does not send your data to third-party services.** It only sends the data required to connect to and play on the official **Haven & Hearth servers**.
 
 ## Support development
 
