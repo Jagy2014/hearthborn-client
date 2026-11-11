@@ -1,0 +1,9 @@
+/* Improve the contrast and hierarchy of sidebar section headings. */
+.md-nav--primary .md-nav__item--section > .md-nav__link,
+.md-nav--primary .md-nav__item--section > label.md-nav__link {
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  opacity: 1;
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 0.65rem;
+}
