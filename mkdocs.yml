@@ -1,0 +1,63 @@
+site_name: Hearthborn Client
+site_url: https://jagy2014.github.io/hearthborn-client/
+site_description: Documentation for the Hearthborn custom Haven & Hearth client
+repo_url: https://github.com/Jagy2014/hearthborn-client
+repo_name: Jagy2014/hearthborn-client
+edit_uri: edit/main/docs/
+docs_dir: docs
+theme:
+  name: material
+  language: en
+  logo: images/hearthborn.png
+  favicon: images/hearthborn.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Interface & controls:
+      - Customizable interface: features/interface.en.md
+      - Action Search: features/action-search.en.md
+  - Village & production:
+      - Quality Roster: features/quality-roster.en.md
+      - Village & Claim Planner: features/claim-plan.en.md
+      - Cheese Assistant: features/cheese.en.md
+      - Automatic Timers: features/timers.en.md
+      - Storage & stockpiles: features/storage.en.md
+      - Automation & Xtensions: features/scripts.en.md
+  - Navigation & exploration:
+      - Improved Pathfinding: features/pathfinding.en.md
+      - Mapping & Exports: features/mapping.en.md
+      - Session Trail: features/session-trail.en.md
+      - Map Icons & Settings: features/map-icons.en.md
+      - Meteorite Triangulation: features/meteorite.en.md
+  - Mining & combat:
+      - Minesweeper & mining safety: features/mining-safety.en.md
+      - Combat Assistance: features/combat.en.md
+  - Additional guides:
+      - Exploration overview: features/exploration.en.md
+      - Production overview: features/production.en.md
