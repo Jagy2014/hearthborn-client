@@ -8,8 +8,8 @@ The **Cattle Roster** provides an overview of your recorded livestock in a redes
 
 The roster includes controls to **select all**, **select none**, and **remove selected** entries.
 
-### Automatically remove dead animals
+### Automatically remove slaughtered animals
 
-Enable **Automatically remove dead animals** to keep the roster up to date. Animals that have died or been slaughtered are automatically removed from the roster, so you do not have to clean up their entries manually.
+Enable the **Automatically remove dead animals** option to automatically remove animals **that have been slaughtered** from the roster. The option's behavior for animals that die from other causes has not been confirmed.
 
 [Back to features](../../README.md#features)
