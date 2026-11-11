@@ -12,6 +12,14 @@ This gives the indoor map a practical purpose: seeing where previously inspected
 
 ![Room plan showing previously observed cupboard contents](../images/room%20plan.png)
 
+## Hide trees and bushes
+
+Press **Ctrl + H** to hide trees while keeping their **stumps visible**. This makes it easier to see the ground and objects that would otherwise be obscured by foliage, without losing track of where the trees stand.
+
+By default, **Ctrl + H hides trees only**. To hide **bushes as well**, enable the corresponding option in the settings. Bushes do not have their own stumps, so hidden bushes are represented by a **small mulberry-tree stump** instead.
+
+Hearthborn also displays **tree growth stages**, helping you identify how far trees have developed.
+
 ## Choose your action menu
 
 **Classic (grid) menu** preserves the familiar 4×4 action hierarchy and navigation. Position it in either bottom corner.
