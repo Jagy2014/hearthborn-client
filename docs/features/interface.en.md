@@ -43,6 +43,8 @@ Move the character portrait and status bars together to the right side if you pr
 
 **Character portrait shortcuts:** **Left-click (LMB)** the portrait to open the **Equipment** window. **Right-click (RMB)** the portrait to open the **Character Sheet** window.
 
+**Water and auto-drink:** Click the **water capacity indicator** to drink water manually. You can also enable **Auto-drink** in **Settings** and choose the fatigue threshold at which the character drinks automatically: **25%, 50%, or 75%**.
+
 ![Portrait and status indicators on the right](../images/classic%20menu%20portrait%20right.png)
 
 ## Adjust appearance and scale
