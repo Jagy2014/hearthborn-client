@@ -20,6 +20,14 @@ By default, **Ctrl + H hides trees only**. To hide **bushes as well**, enable th
 
 Hearthborn also displays **tree growth stages**, helping you identify how far trees have developed.
 
+**Trees and bushes hidden**
+
+![Hidden trees leave stumps visible](../images/hide%20trees.png)
+
+**Trees and bushes visible**
+
+![Trees and bushes displayed normally](../images/hide%20trees%202.png)
+
 ## Choose your action menu
 
 **Classic (grid) menu** preserves the familiar 4×4 action hierarchy and navigation. Position it in either bottom corner.
