@@ -72,33 +72,3 @@ Press **Alt+Space** to toggle compact UI. During combat, the client can automati
 ## Example layouts
 
 The screenshots above demonstrate different configurations, not fixed presets. You can mix their arrangements to build your own layout.
-
----
-
-## Original README feature overview
-
-## 🎛️ Redesigned & fully customizable interface
-
-Hearthborn features a redesigned interface that adapts to how **you** play. Arrange your HUD for a clean view of the world, a compact corner layout, or a workspace with toolbars and panels exactly where you need them.
-
-- **Two action-menu styles:** Keep the familiar classic **4×4 grid**, or switch to the expandable **Sidebar Menu**. The classic menu retains its original action hierarchy.
-- **Flexible toolbars:** Move F-key, numeric, and additional action bars; arrange them horizontally or vertically, or attach supported bars along the bottom of the screen.
-- **Drag, dock, and snap:** Reposition toolbars and supported windows, and snap them to nearby panels or screen edges.
-- **Left- or right-handed layouts:** Move the character portrait and status bars together to the right side of the screen, with surrounding indicators adjusting their positions; swap action-menu corners as preferred.
-- **Independent UI scaling and frames:** Adjust panel sizes and portrait scale, switch between dark and light themes, and enable or disable decorative gold frames on supported toolbars.
-- **Quest journal and equipment tools:** Keep quest objectives visible in a movable journal, and customize the equipment strip and status indicators.
-- **Compact mode:** Press **Alt+Space** to temporarily hide nonessential UI, including during combat.
-
-![Classic interface with UI settings](../images/interface5.png)
-
-![Alternative sidebar menu](../images/interface-sidebar.png)
-
-[Explore interface layouts and controls](interface.en.md)
-
-Hearthborn brings practical tools for village management, crafting, exploration, and everyday play into one client. It includes a village planner, cheese production assistant, automatic timers, meteorite triangulation, improved pathfinding, and configurable interface layouts.
-
-**Languages:** English and Russian · **Build:** Java 22 / Apache Ant
-
-> **Unofficial client.** Hearthborn is an independent client project based on the Haven & Hearth client. It is not the official game client.
-
-## Features
