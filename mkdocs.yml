@@ -30,6 +30,40 @@ theme:
         name: Switch to light mode
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+          nav_translations:
+            Home: Главная
+            Interface & controls: Интерфейс и управление
+            Customizable interface: Настраиваемый интерфейс
+            Action Search: Поиск действий
+            Village & production: Деревня и производство
+            Quality Roster: Журнал качества
+            Village & Claim Planner: Планировщик деревни и владений
+            Cheese Assistant: Помощник сыровара
+            Automatic Timers: Автоматические таймеры
+            Storage & stockpiles: Хранилища и склады
+            Automation & Xtensions: Автоматизация и Xtensions
+            Navigation & exploration: Навигация и исследование
+            Improved Pathfinding: Поиск пути
+            Mapping & Exports: Карта и экспорт
+            Session Trail: Маршрут сессии
+            Map Icons & Settings: Значки и настройки карты
+            Meteorite Triangulation: Поиск метеоритов
+            Mining & combat: Шахты и бой
+            Minesweeper & mining safety: Сапёр и безопасность шахт
+            Combat Assistance: Помощь в бою
+            Additional guides: Дополнительные руководства
+            Exploration overview: Обзор исследования
+            Production overview: Обзор производства
 markdown_extensions:
   - admonition
   - attr_list
