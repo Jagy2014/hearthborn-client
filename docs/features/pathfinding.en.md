@@ -1,10 +1,9 @@
-# Redesigned mapping and exports
+# Improved pathfinding
 
-The mapping system has been reworked, including how explored map data is saved and exchanged between clients.
+Hearthborn reworks the default pathfinding to make everyday movement smoother and less intrusive. On foot, it is **enabled by default**. You can disable it in settings or temporarily bypass it with **Shift+click**.
 
-- **Export and import map data** to transfer your explored map to another client.
-- **Export the map as an image** for sharing or reference.
-- **Export map tiles** when you need the individual tile images.
-- No separate disk-recording mode: unnecessary continuous writing to disk has been left out.
+- Automatically navigates around nearby obstacles without getting in the way of normal play.
+- **Not used during combat, while swimming, or when traveling by boat.**
+- **Horseback pathfinding** is supported but disabled by default; enable it separately in settings.
 
 [Back to features](../../README.md#features)
