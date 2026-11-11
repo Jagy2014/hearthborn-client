@@ -23,24 +23,24 @@ Explore each feature in its own illustrated guide.
 ### 🎛️ Interface & controls
 
 - [**Redesigned interface**](docs/features/interface.en.md) — Classic 4×4 or sidebar menu, movable toolbars, snapping windows, mirrored HUD, and compact mode.
-- [**Redesigned Action Search**](docs/features/exploration.en.md#redesigned-action-search) — Favorites, history, recipe details, and ingredient search.
+- [**Redesigned Action Search**](docs/features/action-search.en.md) — Favorites, history, recipe details, and ingredient search.
 
 ### 🏡 Village & production
 
 - [**Quality Roster**](docs/features/quality-roster.en.md) — Record object quality and display known values on your plans.
 - [**Village & Claim Planner**](docs/features/claim-plan.en.md) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
-- [**Cheese Production Assistant**](docs/features/production.en.md#cheese-production-assistant) — Cheese aging stages, rack labels, and progression chart.
-- [**Automatic Timers**](docs/features/production.en.md#automatic-timers) — Production, cheese, siege, claim, and manual timers.
-- [**Storage & Production Visibility**](docs/features/production.en.md#storage-and-production-visibility) — Cupboard contents, stockpile identification, and object labels.
+- [**Cheese Production Assistant**](docs/features/cheese.en.md) — Cheese aging stages, rack labels, and progression chart.
+- [**Automatic Timers**](docs/features/timers.en.md) — Production, cheese, siege, claim, and manual timers.
+- [**Storage & Production Visibility**](docs/features/storage.en.md) — Cupboard contents, stockpile identification, and object labels.
 - [**Automation & Xtensions**](docs/features/scripts.en.md) — Helpers for fuel, workstations, crops, animals, and other repetitive tasks.
 
 ### 🗺️ Navigation & exploration
 
-- [**Improved Pathfinding**](docs/features/exploration.en.md#improved-pathfinding) — On by default, with optional horseback navigation.
-- [**Mapping & Exports**](docs/features/exploration.en.md#redesigned-mapping-and-exports) — Transfer maps between clients or export images and tiles.
-- [**Session Trail**](docs/features/exploration.en.md#session-trail) — View your route for the current session without recording it.
-- [**Map Icons & Display Settings**](docs/features/exploration.en.md#map-icons-and-display-settings) — More icons, animal sounds, and redesigned map controls.
-- [**Meteorite Triangulation**](docs/features/exploration.en.md#meteorite-triangulation) — Narrow a meteorite search area using Star Gaze observations.
+- [**Improved Pathfinding**](docs/features/pathfinding.en.md) — On by default, with optional horseback navigation.
+- [**Mapping & Exports**](docs/features/mapping.en.md) — Transfer maps between clients or export images and tiles.
+- [**Session Trail**](docs/features/session-trail.en.md) — View your route for the current session without recording it.
+- [**Map Icons & Display Settings**](docs/features/map-icons.en.md) — More icons, animal sounds, and redesigned map controls.
+- [**Meteorite Triangulation**](docs/features/meteorite.en.md) — Narrow a meteorite search area using Star Gaze observations.
 
 ### ⛏️ Mining & combat
 
@@ -54,11 +54,11 @@ A quick look at Hearthborn's interface and tools. Click a feature name for the f
 | [Customizable interface](docs/features/interface.en.md) | [Village & claim planning](docs/features/claim-plan.en.md) |
 | --- | --- |
 | ![Customizable Hearthborn interface](docs/images/interface5.png) | ![Village planner](docs/images/village-plan.jpg) |
-| [Quality Roster](docs/features/quality-roster.en.md) | [Map icons & display settings](docs/features/exploration.en.md#map-icons-and-display-settings) |
+| [Quality Roster](docs/features/quality-roster.en.md) | [Map icons & display settings](docs/features/map-icons.en.md) |
 | ![Quality Roster](docs/images/quality-roster.png) | ![Map tools](docs/images/map.jpg) |
-| [Cheese production](docs/features/production.en.md#cheese-production-assistant) | [Automation & Xtensions](docs/features/scripts.en.md) |
+| [Cheese production](docs/features/cheese.en.md) | [Automation & Xtensions](docs/features/scripts.en.md) |
 | ![Cheese production chart](docs/images/cheese-2.jpg) | ![Xtensions menu](docs/images/xtensions.png) |
-| [Cheese aging on racks](docs/features/production.en.md#cheese-production-assistant) | [Cupboard contents](docs/features/production.en.md#storage-and-production-visibility) |
+| [Cheese aging on racks](docs/features/cheese.en.md) | [Cupboard contents](docs/features/storage.en.md) |
 | ![Cheese racks and aging stages](docs/images/cheese-1.jpg) | ![Item icons above cupboards](docs/images/cupboard-info.jpg) |
 
 ## Getting started
