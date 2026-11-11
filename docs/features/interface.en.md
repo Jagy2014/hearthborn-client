@@ -2,6 +2,14 @@
 
 Hearthborn provides a fully configurable in-game interface. You can keep the familiar Haven & Hearth action grid, use an expandable sidebar, and arrange the surrounding panels to suit your screen and play style.
 
+## Room plan
+
+The original indoor map showed the current house as a square, with other nearby houses appearing as squares against a black background. Hearthborn replaces that view with a **room plan** in the same map area.
+
+The room plan displays the layout of the current house and can show the **contents of cupboards that have been opened at least once**. This information is not collected by the room plan itself: **a separate script records the cupboard contents**, and the room plan displays the information that was already gathered. Cupboards that have never been opened do not have observed contents to display.
+
+This gives the indoor map a practical purpose: seeing where previously inspected items are stored without opening every cupboard again.
+
 ## Choose your action menu
 
 **Classic (grid) menu** preserves the familiar 4×4 action hierarchy and navigation. Position it in either bottom corner.
