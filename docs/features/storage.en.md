@@ -25,6 +25,12 @@ Hearthborn adds shortcuts for moving matching items while keeping different mate
 | Transfer matching items into an open container | **Shift + Ctrl + click** an item (default shortcut) | Transfers items with the same name from the same inventory or bag. **Left-click** starts with the highest quality; **right-click** starts with the lowest. |
 | Fill a feeding trough | **Shift + left-click** the trough | The server takes all suitable seeds from your inventory in one action. |
 
+### Transferring items from stacks
+
+**Stacked items can be transferred directly**, including ore stored in stacks inside your inventory or bag. When you click a stack to transfer its contents to another container or a production station, such as an **ore smelter or oven**, Hearthborn handles the items inside the stack.
+
+If the destination **cannot accept a stack as a single object**, Hearthborn automatically takes the individual items out of the stack and transfers them to the destination. You do not need to unpack the stack manually first.
+
 ### Why exact-name stockpile deposits matter
 
 A stockpile decides what it accepts and does not distinguish between types of stone: two different kinds of stone can end up mixed in the same pile. Use **Shift + Ctrl + right-click on the stockpile** when you want to deposit only one exact item name instead of letting the stockpile take everything it accepts.
