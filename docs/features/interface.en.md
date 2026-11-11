@@ -6,6 +6,19 @@ Hearthborn provides a fully configurable in-game interface. You can keep the fam
 
 **Classic (grid) menu** preserves the familiar 4×4 action hierarchy and navigation. Position it in either bottom corner.
 
+### Classic menu layouts
+
+The classic menu can sit in the **bottom-left** or **bottom-right** corner, with the portrait and status bars positioned independently.
+
+| Classic menu on the left | Classic menu on the right |
+| --- | --- |
+| ![Classic action grid in the bottom-left corner](../images/classic%20menu%20left.png) | ![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png) |
+
+**Portrait on the right:** move the character portrait and status indicators to the opposite side while keeping the classic grid.
+
+![Classic interface with portrait and status indicators on the right](../images/classic%20menu%20portrait%20right.png)
+
+
 **Sidebar menu** replaces the grid with a vertical list of action categories. Click a category to expand its actions beside the sidebar; subcategories expand in place. Switch between the two styles in **Options → UI settings**.
 
 ![Sidebar menu with expanded actions](../images/interface-sidebar.png)
