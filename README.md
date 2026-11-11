@@ -19,8 +19,8 @@ Hearthborn features a redesigned interface that adapts to how **you** play. Arra
 - **Two action-menu styles:** Keep the familiar classic **4×4 grid**, or switch to the expandable **Sidebar Menu**. The classic menu retains its original action hierarchy.
 - **Flexible toolbars:** Move F-key, numeric, and additional action bars; arrange them horizontally or vertically, or attach supported bars along the bottom of the screen.
 - **Drag, dock, and snap:** Reposition toolbars and supported windows, and snap them to nearby panels or screen edges.
-- **Left- or right-handed layouts:** Move the character portrait and status meters, swap action-menu corners, and arrange panels around your preferred side of the screen.
-- **Independent UI scaling:** Adjust panel sizes and portrait scale, with an optional light interface theme and configurable gold frames.
+- **Left- or right-handed layouts:** Move the character portrait and status bars together to the right side of the screen, with surrounding indicators adjusting their positions; swap action-menu corners as preferred.
+- **Independent UI scaling and frames:** Adjust panel sizes and portrait scale, switch between dark and light themes, and enable or disable decorative gold frames on supported toolbars.
 - **Quest journal and equipment tools:** Keep quest objectives visible in a movable journal, and customize the equipment strip and status indicators.
 - **Compact mode:** Press **Alt+Space** to temporarily hide nonessential UI, including during combat.
 
