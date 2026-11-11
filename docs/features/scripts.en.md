@@ -131,3 +131,15 @@ These helpers operate on available, observed game objects and do not guarantee s
 **Escape stops future steps only.** It is not an undo command for items transferred, fuel inserted, crops harvested, fires lit, or other actions already completed.
 
 The **quest journal, livestock records, combat schools, and damage reset** are separate interfaces or features, **not scripts covered on this page**.
+
+---
+
+## Original README feature overview
+
+## 🛠️ Automation and everyday helpers
+
+The **Xtensions** menu includes helpers for production, farming, travel, mining, and other repetitive tasks. Examples include filling cheese trays, adding fuel to supported objects, harvesting dreams, handling trellis plants, and deploying travel equipment.
+
+![Xtensions action menu](../images/xtensions.png)
+
+[Automation requirements and limitations](scripts.en.md)
