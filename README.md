@@ -38,6 +38,16 @@ Hearthborn brings practical tools for village management, crafting, exploration,
 
 ## Features
 
+### 📒 Quality roster
+
+Keep a **quality journal** for objects and resources you encounter, so useful quality values are easy to find later.
+
+- **Q button:** Opens the **Quality roster**, where you can browse recorded entries across categories such as buildings, trees, seeds, saplings, and barrels.
+- **Q with an arrow:** Activates the quality-recording tool. Use it on an object to read its quality and add the observation to the journal.
+- **Quality on your plans:** Recorded object quality can also be displayed directly on the **village plan** or **personal claim plan**, connecting your journal entries with their locations.
+
+![Quality roster with recorded object qualities](docs/images/quality-roster.png)
+
 ### 🏡 Village and claim planning
 
 Keep a locally saved overview of visited village and personal-claim areas. Find and label observed objects, measure areas in tiles, switch levels, and export plans to HTML or Excel.
