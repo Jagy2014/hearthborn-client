@@ -58,6 +58,8 @@ A quick look at Hearthborn's interface and tools. Click a feature name for the f
 | ![Quality Roster](docs/images/quality-roster.png) | ![Map tools](docs/images/map.jpg) |
 | [Cheese production](docs/features/production.en.md#cheese-production-assistant) | [Automation & Xtensions](docs/features/scripts.en.md) |
 | ![Cheese production chart](docs/images/cheese-2.jpg) | ![Xtensions menu](docs/images/xtensions.png) |
+| [Cheese aging on racks](docs/features/production.en.md#cheese-production-assistant) | [Cupboard contents](docs/features/production.en.md#storage-and-production-visibility) |
+| ![Cheese racks and aging stages](docs/images/cheese-1.jpg) | ![Item icons above cupboards](docs/images/cupboard-info.jpg) |
 
 ## Getting started
 
