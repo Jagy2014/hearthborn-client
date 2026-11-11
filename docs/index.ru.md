@@ -16,46 +16,46 @@ Hearthborn — независимый неофициальный клиент н
 
 ### 🎛️ Интерфейс и управление
 
-- [**Настраиваемый интерфейс**](features/interface.ru.md) — классическое меню 4×4 или боковое меню, панели, закрепление окон и компактный режим.
-- [**Поиск действий**](features/action-search.ru.md) — избранное, история, рецепты и поиск по ингредиентам.
+- [**Настраиваемый интерфейс**](https://jagy2014.github.io/hearthborn-client/ru/features/interface/) — классическое меню 4×4 или боковое меню, панели, закрепление окон и компактный режим.
+- [**Поиск действий**](https://jagy2014.github.io/hearthborn-client/ru/features/action-search/) — избранное, история, рецепты и поиск по ингредиентам.
 
 ### 🏡 Деревня и производство
 
-- [**Журнал качества**](features/quality-roster.ru.md) — запись качества объектов и отображение значений на планах.
-- [**Планировщик деревни и владений**](features/claim-plan.ru.md) — карта построек, названия областей, измерения, экспорт и импорт.
-- [**Помощник сыровара**](features/cheese.ru.md) — стадии созревания, подписи и таблица сыров.
-- [**Автоматические таймеры**](features/timers.ru.md) — производство, сыры, осадные сооружения и ручные таймеры.
-- [**Хранилища и склады**](features/storage.ru.md) — значки содержимого шкафов и обозначения материалов.
-- [**Автоматизация и Xtensions**](features/scripts.ru.md) — команды для топлива, производства, животных и растений.
+- [**Журнал качества**](https://jagy2014.github.io/hearthborn-client/ru/features/quality-roster/) — запись качества объектов и отображение значений на планах.
+- [**Планировщик деревни и владений**](https://jagy2014.github.io/hearthborn-client/ru/features/claim-plan/) — карта построек, названия областей, измерения, экспорт и импорт.
+- [**Помощник сыровара**](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) — стадии созревания, подписи и таблица сыров.
+- [**Автоматические таймеры**](https://jagy2014.github.io/hearthborn-client/ru/features/timers/) — производство, сыры, осадные сооружения и ручные таймеры.
+- [**Хранилища и склады**](https://jagy2014.github.io/hearthborn-client/ru/features/storage/) — значки содержимого шкафов и обозначения материалов.
+- [**Автоматизация и Xtensions**](https://jagy2014.github.io/hearthborn-client/ru/features/scripts/) — команды для топлива, производства, животных и растений.
 
 ### 🗺️ Навигация и исследование
 
-- [**Поиск пути**](features/pathfinding.ru.md) — пешком по умолчанию, верхом по отдельной настройке.
-- [**Карта и экспорт**](features/mapping.ru.md) — перенос карт, изображения и отдельные тайлы.
-- [**Маршрут сессии**](features/session-trail.ru.md) — путь, пройденный в текущей сессии.
-- [**Значки и настройки карты**](features/map-icons.ru.md) — новые обозначения и управление отображением.
-- [**Поиск метеоритов**](features/meteorite.ru.md) — определение примерной области по Star Gaze.
+- [**Поиск пути**](https://jagy2014.github.io/hearthborn-client/ru/features/pathfinding/) — пешком по умолчанию, верхом по отдельной настройке.
+- [**Карта и экспорт**](https://jagy2014.github.io/hearthborn-client/ru/features/mapping/) — перенос карт, изображения и отдельные тайлы.
+- [**Маршрут сессии**](https://jagy2014.github.io/hearthborn-client/ru/features/session-trail/) — путь, пройденный в текущей сессии.
+- [**Значки и настройки карты**](https://jagy2014.github.io/hearthborn-client/ru/features/map-icons/) — новые обозначения и управление отображением.
+- [**Поиск метеоритов**](https://jagy2014.github.io/hearthborn-client/ru/features/meteorite/) — определение примерной области по Star Gaze.
 
 ### ⛏️ Шахты и бой
 
-- [**Сапёр и безопасность шахт**](features/mining-safety.ru.md) — отметки клеток, подсказки от пыли и радиусы опор.
-- [**Помощь в бою**](features/combat.ru.md) — начальная автоматизация боя с животными и компактная панель.
+- [**Сапёр и безопасность шахт**](https://jagy2014.github.io/hearthborn-client/ru/features/mining-safety/) — отметки клеток, подсказки от пыли и радиусы опор.
+- [**Помощь в бою**](https://jagy2014.github.io/hearthborn-client/ru/features/combat/) — начальная автоматизация боя с животными и компактная панель.
 
 ## Screenshots
 
-| [Настраиваемый интерфейс](features/interface.ru.md) | [Планировщик деревни](features/claim-plan.ru.md) |
+| [Настраиваемый интерфейс](https://jagy2014.github.io/hearthborn-client/ru/features/interface/) | [Планировщик деревни](https://jagy2014.github.io/hearthborn-client/ru/features/claim-plan/) |
 | --- | --- |
 | ![Интерфейс](images/interface5.png) | ![План деревни](images/village-plan.jpg) |
-| [Журнал качества](features/quality-roster.ru.md) | [Карта](features/map-icons.ru.md) |
+| [Журнал качества](https://jagy2014.github.io/hearthborn-client/ru/features/quality-roster/) | [Карта](https://jagy2014.github.io/hearthborn-client/ru/features/map-icons/) |
 | ![Журнал качества](images/quality-roster.png) | ![Карта](images/map.jpg) |
-| [Сыроварение](features/cheese.ru.md) | [Xtensions](features/scripts.ru.md) |
+| [Сыроварение](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Xtensions](https://jagy2014.github.io/hearthborn-client/ru/features/scripts/) |
 | ![Сыры](images/cheese-2.jpg) | ![Xtensions](images/xtensions.png) |
-| [Сырные стеллажи](features/cheese.ru.md) | [Содержимое шкафов](features/storage.ru.md) |
+| [Сырные стеллажи](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Содержимое шкафов](https://jagy2014.github.io/hearthborn-client/ru/features/storage/) |
 | ![Сырные стеллажи](images/cheese-1.jpg) | ![Значки над шкафами](images/cupboard-info.jpg) |
 
 ## Getting started
 
-Hearthborn — неофициальный клиент Haven & Hearth. Ссылка на проверенную сборку и инструкции по установке будут добавлены после публикации дистрибутива. Начните с [руководства по интерфейсу](features/interface.ru.md) и [автоматизации](features/scripts.ru.md).
+Hearthborn — неофициальный клиент Haven & Hearth. Ссылка на проверенную сборку и инструкции по установке будут добавлены после публикации дистрибутива. Начните с [руководства по интерфейсу](https://jagy2014.github.io/hearthborn-client/ru/features/interface/) и [автоматизации](https://jagy2014.github.io/hearthborn-client/ru/features/scripts/).
 
 ## Documentation
 
