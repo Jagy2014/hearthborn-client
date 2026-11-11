@@ -154,6 +154,8 @@ The default **Action Search** has been reworked into a more useful action browse
 - See an action's menu path and, for supported crafting recipes, the ingredients and crafting details.
 - Use **Search by ingredient** to find recipes based on materials.
 
+![Redesigned Action Search with favorites and crafting details](<docs/images/search actions.png>)
+
 ### ⚔️ Combat assistance
 
 Stage 1 animal auto-combat selects supported attacks from your active deck during an existing animal fight. A compact combat interface temporarily hides nonessential windows and widgets.
