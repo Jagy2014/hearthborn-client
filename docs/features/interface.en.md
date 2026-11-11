@@ -49,6 +49,8 @@ The **Quest journal** is a movable window that keeps active quests and objective
 
 ![Classic bottom-corner arrangement](../images/interface.png)
 
+![Quest journal open with active quest objectives](../images/quest-log.jpg)
+
 ## Compact interface
 
 Press **Alt+Space** to toggle compact UI. During combat, the client can automatically hide nonessential windows and toolbars to keep the action visible. The shortcut also works outside combat. You can restore the full interface without losing your preferred layout.
