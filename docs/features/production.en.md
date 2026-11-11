@@ -36,4 +36,4 @@ The Timers window contains **Automatic**, **Cheese**, and **Manual** tabs; you c
 
 ![Cupboard contents and labels](../images/cupboard-info.jpg)
 
-[Automation scripts](scripts.en.md) · [Back to features](../../README.md#features)
+[Automation scripts](scripts.md) · [Back to features](../index.md#features)
