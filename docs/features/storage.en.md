@@ -7,6 +7,16 @@ A cupboard automatically displays an icon of the **item it contains the most of*
 ![Cupboard contents shown above cupboards](../images/cupboard-info.jpg)
 
 
+## Barrel contents labels
+
+Hearthborn displays the **contents of barrels as labels above them**.
+
+The game server does not provide the barrel's contents automatically. Until you inspect a barrel, the client can only tell whether it is **empty or full**; **empty barrels are highlighted in orange**.
+
+**Open a barrel at least once during the current session** to let Hearthborn identify its contents and show the corresponding label above it. The information is based on what the client has actually observed, rather than hidden server data.
+
+![Barrel contents labels and empty barrel highlighting](../images/barrels.png)
+
 - Identify observed stone, clay, brick, metal, and ore stockpiles visually. **Stone, brick, and clay stockpiles use distinct colors** to make materials easier to distinguish.
 - **Hold Space** to display the names of rock stockpiles.
 - Show cheese rack labels, selected object radii, and useful production information in the world.
