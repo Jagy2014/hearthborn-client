@@ -10,7 +10,7 @@
 
 </div>
 
-![Hearthborn Client](docs/images/hearthborn.png)
+![Hearthborn Client](hearthborn.png)
 
 Hearthborn brings practical tools for village management, crafting, exploration, and everyday play into one client. It includes a village planner, cheese production assistant, automatic timers, meteorite triangulation, improved pathfinding, and configurable interface layouts.
 
@@ -34,9 +34,26 @@ Follow cheese progression for cow, sheep, and goat milk. Inspect aging stages an
 
 ![Cheese rack with aging stages](docs/images/cheese-1.jpg)
 
+I also added a **cheese progression chart** to make it easier to plan cheese production and choose the right aging stages and locations.
+
+![Cheese progression chart for production planning](docs/images/cheese2.jpg)
+
 ### ⏱️ Automatic timers
 
-Track observed production processes in one window, with **Automatic**, **Cheese**, and **Manual** tabs. Supported processes include smelters, kilns, finery forges, steel crucibles, cheese racks, herbalist tables, silk production, siege equipment, and more.
+Hearthborn automatically creates background timers for supported in-game processes as they are observed, then notifies you when they are ready. Spend less time repeatedly checking production equipment and more time playing.
+
+**Supported processes include:**
+
+- **Ore smelters, kilns, ovens, and finery forges:** Track processing and receive completion notifications.
+- **Steel crucibles:** Monitor the observed fuel countdown and get reminders when more fuel is needed.
+- **Cheese production:** Follow aging stages and see when the next stage is expected.
+- **Silk production and herbalist tables:** Track supported growth and processing stages.
+- **Battering rams and other siege equipment:** Track preparation time and know when equipment becomes usable.
+- **Personal claims:** Follow the activation countdown after placement.
+
+All countdowns are collected in one window with **Automatic**, **Cheese**, and **Manual** tabs. You can also create your own timers. Additional processes will be supported in future updates.
+
+*Automatic timers use the latest information received by the client, often when you interact with an object. If a process changes while it is unobserved, its estimate may become outdated. Saved deadlines continue counting down across client restarts.*
 
 ![Automatic production timers](<docs/images/automatic timers.jpg>)
 
