@@ -10,7 +10,25 @@
 
 </div>
 
-![Hearthborn Client](/docs/images/hearthborn.png)
+![Hearthborn Client](hearthborn.png)
+
+### 🎛️ Redesigned & fully customizable interface
+
+Hearthborn features a redesigned interface that adapts to how **you** play. Arrange your HUD for a clean view of the world, a compact corner layout, or a workspace with toolbars and panels exactly where you need them.
+
+- **Two action-menu styles:** Keep the familiar classic **4×4 grid**, or switch to the expandable **Sidebar Menu**. The classic menu retains its original action hierarchy.
+- **Flexible toolbars:** Move F-key, numeric, and additional action bars; arrange them horizontally or vertically, or attach supported bars along the bottom of the screen.
+- **Drag, dock, and snap:** Reposition toolbars and supported windows, and snap them to nearby panels or screen edges.
+- **Left- or right-handed layouts:** Move the character portrait and status meters, swap action-menu corners, and arrange panels around your preferred side of the screen.
+- **Independent UI scaling:** Adjust panel sizes and portrait scale, with an optional light interface theme and configurable gold frames.
+- **Quest journal and equipment tools:** Keep quest objectives visible in a movable journal, and customize the equipment strip and status indicators.
+- **Compact mode:** Press **Alt+Space** to temporarily hide nonessential UI, including during combat.
+
+![Classic interface with UI settings](docs/images/interface5.png)
+
+![Alternative sidebar menu](docs/images/interface-sidebar.png)
+
+[Explore interface layouts and controls](docs/features/interface.en.md)
 
 Hearthborn brings practical tools for village management, crafting, exploration, and everyday play into one client. It includes a village planner, cheese production assistant, automatic timers, meteorite triangulation, improved pathfinding, and configurable interface layouts.
 
@@ -36,7 +54,7 @@ Follow cheese progression for cow, sheep, and goat milk. Inspect aging stages an
 
 I also added a **cheese progression chart** to make it easier to plan cheese production and choose the right aging stages and locations.
 
-![Cheese progression chart for production planning](docs/images/cheese-2.jpg)
+![Cheese progression chart for production planning](docs/images/cheese2.jpg)
 
 ### ⏱️ Automatic timers
 
@@ -100,17 +118,6 @@ The **Xtensions** menu includes helpers for production, farming, travel, mining,
 
 [Automation requirements and limitations](docs/features/scripts.en.md)
 
-### 🎛️ Customizable interface
-
-- Choose between the classic **4×4 action menu** and the alternative sidebar menu.
-- Move and dock supported panels, toolbars, chat, and windows.
-- Customize the map, quest journal, equipment strip, and toolbar layout.
-- Adjust panel scaling and select a light interface theme.
-- Use English or Russian interface text.
-
-![Hearthborn interface and quest journal](docs/images/map-chat-journal-widgets.jpg)
-
-[Magnetic window docking](docs/features/magnetic-windows.en.md)
 
 ## Screenshots
 
@@ -150,6 +157,7 @@ See the [original client README](README-vanilla-client) for build targets and de
 - [Timers and meteorite triangulation](docs/features/timers.en.md)
 - [Mining tools](docs/features/mining-safety.en.md)
 - [Automation and scripts](docs/features/scripts.en.md)
+- [Interface customization](docs/features/interface.en.md)
 - [Magnetic windows](docs/features/magnetic-windows.en.md)
 
 **Important:** Automatic timers, stored object information, and map tools rely on observations and data received by the client. They do not reveal unexplored or unseen information. Automation may stop when supplies, permissions, or reachable objects are unavailable.
