@@ -87,3 +87,19 @@ Use the map's display settings to highlight selected cave terrain and ore types 
 ---
 
 **In short:** Minesweeper is a way to record what you have observed and mark tiles for later. Automatic mining protection is a different feature with its own setting. Neither one replaces caution when mining.
+
+---
+
+## Original README feature overview
+
+## 🔎 Redesigned action search
+
+The default **Action Search** has been reworked into a more useful action browser. Find commands without navigating through multiple menu levels, and review the selected action directly.
+
+- Search across actions, crafting, and construction.
+- Switch between **Favorites** and **History**.
+- Mark frequently used actions as favorites.
+- See an action's menu path and, for supported crafting recipes, the ingredients and crafting details.
+- Use **Search by ingredient** to find recipes based on materials.
+
+![Redesigned Action Search with favorites and crafting details](<../images/search actions.png>)
