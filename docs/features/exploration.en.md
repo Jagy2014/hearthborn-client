@@ -2,10 +2,11 @@
 
 ## Improved pathfinding
 
-Hearthborn's reworked pathfinding is designed to navigate around nearby obstacles without interrupting ordinary movement. It is **enabled by default** and can be turned off in settings.
+Hearthborn's reworked pathfinding helps navigate around nearby obstacles without interrupting ordinary movement.
 
-- It is **not used during combat, while swimming, or while traveling by boat**.
-- **Horseback pathfinding** is an optional, separately enabled mode.
+- **On foot:** Improved pathfinding is **enabled by default**. Disable it in settings, or temporarily bypass it with **Shift+click**.
+- **On horseback:** Improved pathfinding is supported but **disabled by default**. Enable it separately in settings if you want to use it while riding.
+- **Exceptions:** Improved pathfinding is not used during combat, while swimming, or while traveling by boat.
 
 ## Redesigned mapping and exports
 
