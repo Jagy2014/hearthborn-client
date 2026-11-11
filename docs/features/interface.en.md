@@ -2,6 +2,14 @@
 
 Hearthborn provides a fully configurable in-game interface. You can keep the familiar Haven & Hearth action grid, use an expandable sidebar, and arrange the surrounding panels to suit your screen and play style.
 
+## Enhanced Inspect
+
+The **Inspect** action reveals additional information about objects in the world. For example, inspecting a building can show **which materials were used to construct it**, including the different stone, wood, and metal materials recorded for the structure.
+
+**Hold Shift while inspecting** to display technical information, including the object's **in-game resource name**. This is useful when you need to identify the exact game resource rather than only its visible name.
+
+![Inspect showing the materials used to build a house](../images/inspect.png)
+
 ## Interface widgets
 
 Hearthborn provides compact **widgets** for frequently used windows and information. They keep essential controls accessible without leaving every full-sized window open.
