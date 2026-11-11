@@ -4,7 +4,7 @@
 
 Hearthborn brings village plans, cheese production tools, automatic timers, meteorite triangulation, and practical automation into one client. It also improves navigation, storage labels, mining overlays, and the interface, with English and Russian language support.
 
-![Hearthborn village scene with the HUD, map, chat and quest journal](docs/images/map-chat-journal.png)
+![Hearthborn village scene with the HUD, map, chat and quest journal](docs/images/map-chat-journal.jpg)
 
 ## Explore the features
 
@@ -34,9 +34,9 @@ Keep a local overview of your village and personal claims, including terrain, bu
 
 The plan fills in as you explore. It uses loaded claim data and saved observations; it cannot reveal unexplored areas or automatically confirm every claim permission.
 
-![Village plan with named areas and an object list](docs/images/village-plan.png)
+![Village plan with named areas and an object list](docs/images/village-plan.jpg)
 
-![Personal claim plan with saved objects](docs/images/personal-claim.png)
+![Personal claim plan with saved objects](docs/images/personal-claim.jpg)
 
 [Read more about claim plans](docs/features/claim-plan.en.md).
 
@@ -52,9 +52,9 @@ Follow cheese from curd to its next aging stage without keeping a separate refer
 
 The helper's location selector changes its predictions and tooltips. Moving the cheese to the correct location in the game is still required.
 
-![Cheese progression chart for cow's milk](docs/images/cheese-2.png)
+![Cheese progression chart for cow's milk](docs/images/cheese-2.jpg)
 
-![Open cheese rack with tray stages and readiness](docs/images/cheese-1.png)
+![Open cheese rack with tray stages and readiness](docs/images/cheese-1.jpg)
 
 ## Automatic timers
 
@@ -74,7 +74,7 @@ Name and sort timers, show countdowns above supported objects, and click an asso
 
 Automatic timers depend on received information, usually from opening the object's window. They are estimates of the last observed state; changes outside the client's view can make them outdated.
 
-![Automatic timers for two ore smelters](<docs/images/automatic timers.png>)
+![Automatic timers for two ore smelters](<docs/images/automatic timers.jpg>)
 
 [Read more about timers and supported processes](docs/features/timers.en.md).
 
@@ -112,13 +112,13 @@ Combat automatically switches to a compact interface: open windows, chat, action
 
 This stage automates attack selection against animals. It does not attack player characters or provide a complete hunting routine; you still manage engagement, positioning, and survival.
 
-![Compact animal fight with openings and Auto on](docs/images/combat-ui.png)
+![Compact animal fight with openings and Auto on](docs/images/combat-ui.jpg)
 
-![Animal fight with damage rings and Auto on](docs/images/combat-ui2.png)
+![Animal fight with damage rings and Auto on](docs/images/combat-ui2.jpg)
 
-![Combat with the full interface restored and Auto on](docs/images/combat-interface-restored.png)
+![Combat with the full interface restored and Auto on](docs/images/combat-interface-restored.jpg)
 
-![Compact animal fight in Russian, Auto on](docs/images/autocombat-ru.png)
+![Compact animal fight in Russian, Auto on](docs/images/autocombat-ru.jpg)
 
 ## Improved pathfinding
 
@@ -152,7 +152,7 @@ Recognize storage at a glance using item images displayed above cupboards.
 
 Icons are based on contents the client has seen. They do not reveal the inventory of an unopened, unknown cupboard.
 
-![Cupboards labeled with their contents icons](docs/images/cupboard-info.png)
+![Cupboards labeled with their contents icons](docs/images/cupboard-info.jpg)
 
 ## Stockpile materials and ore icons
 
@@ -165,7 +165,7 @@ Tell materials apart in the world instead of opening every pile.
 
 Transfer an item through a stockpile window, or create a pile from an item, to identify its material. Opening a window alone may not identify it. Observed materials are saved locally; transfer another item after changing a pile's contents to refresh the record.
 
-![Colored stone, clay, brick and metal piles alongside ore icons](docs/images/stockpile-info.png)
+![Colored stone, clay, brick and metal piles alongside ore icons](docs/images/stockpile-info.jpg)
 
 [Read more about stockpile materials and ore icons](docs/features/stone-pile-colors.en.md).
 
@@ -181,11 +181,11 @@ Keep useful information visible while exploring or organizing a settlement.
 - Highlight selected terrain types and ore tiles.
 - Review saved meteorite measurements on both the large and detached maps.
 
-![Map display settings and the map in a separate window](docs/images/map.png)
+![Map display settings and the map in a separate window](docs/images/map.jpg)
 
-![Session trail on the map](docs/images/session-trail.png)
+![Session trail on the map](docs/images/session-trail.jpg)
 
-![Cave level and highlighted terrain under the map buttons](<docs/images/cave level and highlight tiles.png>)
+![Cave level and highlighted terrain under the map buttons](<docs/images/cave level and highlight tiles.jpg>)
 
 ## Mining tools and object radii
 
@@ -200,7 +200,7 @@ Combine support information, mining annotations, and configurable range overlays
 
 **Ctrl+R** toggles radii configured to appear by command. Mining checks use loaded objects and received data; coverage shading and manual check marks do not guarantee protection from cave-ins.
 
-![Mine support coverage, damage colors, and tile annotations](docs/images/mining-tools.png)
+![Mine support coverage, damage colors, and tile annotations](docs/images/mining-tools.jpg)
 
 [Read more about mining safety and annotations](docs/features/mining-safety.en.md).
 
@@ -231,7 +231,7 @@ Entering a house from outside sets the camera three wheel steps from its closest
 
 Dewy Lady's Mantle appears as a blue status icon beside the study reminder during its 04:45–07:15 game-time collection period. The icon shows the remaining real time, with a detailed countdown on hover. **General settings → Lady's Mantle notification** controls the icon and the existing start/end alerts; the countdown no longer appears below the clock.
 
-![Lady's Mantle timer and the clock note](docs/images/dawy-ladys-time.png)
+![Lady's Mantle timer and the clock note](docs/images/dawy-ladys-time.jpg)
 
 Hovering the clock opens one framed note to the right of the pointer: world, game date and clock, real time until night or morning, season and real days until the next one, moon, players online, ping, province and realm. Near the right edge of the screen the note moves to the left of the pointer. The on-screen server-status lines are gone. FPS sits to the right of the clock, white letters on a black background. **UI settings → Show ping** adds the round-trip time on the line below it.
 
@@ -245,7 +245,7 @@ The **F-key**, **numeric** and **additional** toolbars use a 1.40× size when fl
 
 **Options → UI settings → Panel scale** changes the game interface from 0.75× to 2× independently of the general Interface scale. Portrait, indicators, action menu, toolbars, chat, journal and other game UI windows follow it; the map and its buttons, inventory, container and equipment windows retain their size. The general Interface scale still affects the whole client.
 
-![Quest journal beside the character sheet quest log](docs/images/quest-log.png)
+![Quest journal beside the character sheet quest log](docs/images/quest-log.jpg)
 
 The **Quest journal** is a movable, magnetic window listing all current quests as equal-height cards with a title and objective progress. The book button in the buff row, immediately after the village plan, opens the window and closes it on the next click. Hovering that button shows the active quest and its objectives. The pursued credo quest appears first and scrolls with the rest. Left-click a card to activate that quest and its native pointers without opening Character Sheet; clicking it again keeps it active. The pointer shows the distance in tiles. Right-click opens its page in the full journal. Drag the lower-right corner to change width and snap the height to whole cards, down to one; scroll with the same gold thumb as the chat to reach every other quest without changing the font size. Objective details appear on hover after selecting a quest; the client no longer switches quests in the background to fetch them. An unfinished objective that names a known item, such as chives, shows that item's picture after the name and quantity. The same picture appears in the Character Sheet quest log. The match follows the English objective, so the picture remains when the line is translated. Position, width and visible card count are saved. **Show quest journal** in UI settings controls visibility; the close button hides it, and the existing Quest journal action restores it. The old pinning and compact/list settings are removed.
 
@@ -264,9 +264,9 @@ The in-game map keeps its buttons on a black strip along the top of the map, ins
 - **Window layout:** compact decoration; floating toolbars, equipment and in-game windows snap to screen edges or adjoining panels. Attached panels follow their anchor; drag one away to detach it.
 - **Language:** English and Russian interface options, including translated tooltips and messages.
 
-![Study progress beside the map, chat and quest journal](docs/images/study.png)
+![Study progress beside the map, chat and quest journal](docs/images/study.jpg)
 
-![Map, chat and quest journal in the corner](docs/images/map-chat-journal-widgets.png)
+![Map, chat and quest journal in the corner](docs/images/map-chat-journal-widgets.jpg)
 
 [Read more about magnetic window docking](docs/features/magnetic-windows.en.md).
 
