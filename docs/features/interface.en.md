@@ -84,7 +84,11 @@ The **Sidebar menu** replaces the grid with a vertical list of action categories
 
 ## Movable radial menu
 
-The **radial action menu** can be **dragged to another position on the screen**, just like the additional toolbars. Place it where it is most convenient without keeping it in a fixed location.
+The **radial action menu** can be moved around the screen just like the additional toolbars, and **stays where you place it**.
+
+To move it, **drag the gap between buttons** directly, or **hold Alt (Option on Mac) and drag a button**. Dragging a button with Alt/Option held **does not activate that button**.
+
+Until you move the menu, it remains in its **original corner**.
 
 ![Movable radial action menu](../images/radial%20menu.png)
 
