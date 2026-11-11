@@ -74,6 +74,12 @@ The **Sidebar menu** replaces the grid with a vertical list of action categories
 
 ![Sidebar menu with expanded actions](../images/interface-sidebar.png)
 
+## Movable radial menu
+
+The **radial action menu** can be **dragged to another position on the screen**, just like the additional toolbars. Place it where it is most convenient without keeping it in a fixed location.
+
+![Movable radial action menu](../images/radial%20menu.png)
+
 ## Arrange your toolbars
 
 F-key, numeric, and additional toolbars can be moved around the screen and arranged horizontally or vertically. Supported bars can also be attached to the bottom edge. Keep them together or separate them to make room for other windows.
@@ -101,6 +107,12 @@ Use **Options → UI settings** to change panel scale, portrait scale, the optio
 ![Interface settings and classic HUD](../images/interface5.png)
 
 ![Panels with different positions](../images/interface3.png)
+
+## Equipment window and bonuses
+
+The **Equipment** window now includes an **Equipment bonuses** panel, showing the combined bonuses provided by equipped items. It displays bonuses to character attributes and skills, as well as learning ability, inventory space, armor deflection and absorption, **Concealment (Int × Ste)**, and **Detection (Prc × Exp)**. This makes it easier to review equipment effects without inspecting each item separately.
+
+![Equipment window showing equipment bonuses](../images/equipment.png)
 
 ## Quest journal, chat, and equipment
 
