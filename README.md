@@ -10,7 +10,7 @@
 
 </div>
 
-![Hearthborn village scene with HUD, map, chat, and quest journal](docs/images/map-chat-journal.jpg)
+![Hearthborn Client](hearthborn.png)
 
 Hearthborn brings practical tools for village management, crafting, exploration, and everyday play into one client. It includes a village planner, cheese production assistant, automatic timers, meteorite triangulation, improved pathfinding, and configurable interface layouts.
 
@@ -46,8 +46,6 @@ Track observed production processes in one window, with **Automatic**, **Cheese*
 
 Use successive **Star Gaze** observations to narrow the estimated meteorite search area on the map. See direction sectors, numbered measurements, and their overlap; keep track of the server-provided starfall forecast.
 
-![Meteorite triangulation preview](docs/images/meteorite-triangulation.svg)
-
 *The triangulation view estimates an area, not an exact impact location.*
 
 ### 🗺️ Exploration, mapping, and pathfinding
@@ -82,8 +80,6 @@ Stage 1 animal auto-combat selects supported attacks from your active deck durin
 ### 🛠️ Automation and everyday helpers
 
 The **Xtensions** menu includes helpers for production, farming, travel, mining, and other repetitive tasks. Examples include filling cheese trays, adding fuel to supported objects, harvesting dreams, handling trellis plants, and deploying travel equipment.
-
-![Automation categories preview](docs/images/automation.svg)
 
 [Automation requirements and limitations](docs/features/scripts.en.md)
 
