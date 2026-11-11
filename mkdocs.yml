@@ -74,24 +74,24 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Interface & controls:
-      - Customizable interface: features/interface.en.md
-      - Action Search: features/action-search.en.md
+      - Customizable interface: features/interface.md
+      - Action Search: features/action-search.md
   - Village & production:
-      - Quality Roster: features/quality-roster.en.md
-      - Village & Claim Planner: features/claim-plan.en.md
-      - Cheese Assistant: features/cheese.en.md
-      - Automatic Timers: features/timers.en.md
-      - Storage & stockpiles: features/storage.en.md
-      - Automation & Xtensions: features/scripts.en.md
+      - Quality Roster: features/quality-roster.md
+      - Village & Claim Planner: features/claim-plan.md
+      - Cheese Assistant: features/cheese.md
+      - Automatic Timers: features/timers.md
+      - Storage & stockpiles: features/storage.md
+      - Automation & Xtensions: features/scripts.md
   - Navigation & exploration:
-      - Improved Pathfinding: features/pathfinding.en.md
-      - Mapping & Exports: features/mapping.en.md
-      - Session Trail: features/session-trail.en.md
-      - Map Icons & Settings: features/map-icons.en.md
-      - Meteorite Triangulation: features/meteorite.en.md
+      - Improved Pathfinding: features/pathfinding.md
+      - Mapping & Exports: features/mapping.md
+      - Session Trail: features/session-trail.md
+      - Map Icons & Settings: features/map-icons.md
+      - Meteorite Triangulation: features/meteorite.md
   - Mining & combat:
-      - Minesweeper & mining safety: features/mining-safety.en.md
-      - Combat Assistance: features/combat.en.md
+      - Minesweeper & mining safety: features/mining-safety.md
+      - Combat Assistance: features/combat.md
   - Additional guides:
-      - Exploration overview: features/exploration.en.md
-      - Production overview: features/production.en.md
+      - Exploration overview: features/exploration.md
+      - Production overview: features/production.md
