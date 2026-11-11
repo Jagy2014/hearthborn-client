@@ -2,7 +2,7 @@
 
 ## Cupboard contents at a glance
 
-A cupboard automatically displays an icon of the **item it contains the most of**, so you can see its main contents without opening it. **You must open the cupboard at least once for this feature to work**, so the client can observe its contents. If you prefer a different icon, you can **choose your own item icon in the cupboard's settings**.
+A cupboard automatically displays an icon of the **item it contains the most of**, so you can see its main contents without opening it. **You must open the cupboard at least once for this feature to work**, so the client can observe its contents. If you prefer a different icon, you can **choose your own item icon in the cupboard's settings**. You can also **adjust the size and color of the cupboard's displayed indicator**.
 
 ![Cupboard contents shown above cupboards](../images/cupboard-info.jpg)
 
@@ -17,7 +17,8 @@ The game server does not provide the barrel's contents automatically. Until you 
 
 ![Barrel contents labels and empty barrel highlighting](../images/barrels.png)
 
-- Identify observed stone, clay, brick, metal, and ore stockpiles visually. **Stone, brick, and clay stockpiles use distinct colors** to make materials easier to distinguish.
+- Identify observed stone, clay, brick, metal, and ore stockpiles visually. **Stone, brick, and clay stockpiles can use distinct colors** to make materials easier to distinguish. You can **disable material-based color differentiation** in the settings.
+- Optionally **highlight empty and full containers** to recognize their fill state at a glance.
 - **Hold Space** to display the names of rock stockpiles.
 - Show cheese rack labels, selected object radii, and useful production information in the world.
 
