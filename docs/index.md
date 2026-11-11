@@ -21,7 +21,7 @@ Explore each feature in its own illustrated guide.
 - [**Redesigned interface**](https://jagy2014.github.io/hearthborn-client/features/interface/) — Classic 4×4 or sidebar menu, movable toolbars, snapping windows, mirrored HUD, and compact mode.
 - [**Redesigned Action Search**](https://jagy2014.github.io/hearthborn-client/features/action-search/) — Favorites, history, recipe details, and ingredient search.
 
-### 🏡 Village & production
+### ⚙️ Production & management
 
 - [**Quality Roster**](https://jagy2014.github.io/hearthborn-client/features/quality-roster/) — Record object quality and display known values on your plans.
 - [**Village & Claim Planner**](https://jagy2014.github.io/hearthborn-client/features/claim-plan/) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
