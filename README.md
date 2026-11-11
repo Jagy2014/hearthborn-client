@@ -36,7 +36,7 @@ Follow cheese progression for cow, sheep, and goat milk. Inspect aging stages an
 
 I also added a **cheese progression chart** to make it easier to plan cheese production and choose the right aging stages and locations.
 
-![Cheese progression chart for production planning](docs/images/cheese2.jpg)
+![Cheese progression chart for production planning](docs/images/cheese-2.jpg)
 
 ### ⏱️ Automatic timers
 
