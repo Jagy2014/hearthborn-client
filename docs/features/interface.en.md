@@ -2,6 +2,19 @@
 
 Hearthborn provides a fully configurable in-game interface. You can keep the familiar Haven & Hearth action grid, use an expandable sidebar, and arrange the surrounding panels to suit your screen and play style.
 
+## Interface widgets
+
+Hearthborn provides compact **widgets** for frequently used windows and information. They keep essential controls accessible without leaving every full-sized window open.
+
+![Hearthborn interface widgets for map, study, chat, claim plan, quest journal, and clock](../images/widgets.png)
+
+- **Map:** You can close the map completely. A **Map widget** remains available; click it to reopen the map.
+- **Chat:** When the chat window is closed, a **Chat widget** appears. An indicator on the widget shows unread messages; click it to open the chat. You can optionally enable **automatic chat opening when a new message arrives** in the settings. **System messages do not count** as new chat messages and do not trigger automatic opening.
+- **Study:** A **brain icon** appears when there are free slots in the study window. Click it to open the **compact study window**.
+- **Claim Plan:** Click to open the **village or personal claim plan**.
+- **Quest Journal:** Click to open the quest journal. **Hover** over the widget to see the active quest and its objectives.
+- **Clock:** **Hover** over the clock to see additional world and session information. You can also enable **FPS and server ping indicators** in the settings; they appear **to the right of the clock**.
+
 ## Cupboard contents at a glance
 
 Hearthborn displays an **item icon above each cupboard**, automatically choosing the item that is **most common inside**. You only need to **open the cupboard once** for the client to learn its contents. You can also choose a different icon manually in the cupboard's settings and adjust the indicator's size and color.
