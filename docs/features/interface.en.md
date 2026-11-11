@@ -21,7 +21,9 @@ The classic menu can sit in the **bottom-left** or **bottom-right** corner, with
 ![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png)
 
 
-**Sidebar menu** replaces the grid with a vertical list of action categories. Click a category to expand its actions beside the sidebar; subcategories expand in place. Switch between the two styles in **Options → UI settings**.
+### Sidebar menu
+
+The **Sidebar menu** replaces the grid with a vertical list of action categories. Click a category to expand its actions beside the sidebar; subcategories expand in place. Switch between the two styles in **Options → UI settings**.
 
 ![Sidebar menu with expanded actions](../images/interface-sidebar.png)
 
