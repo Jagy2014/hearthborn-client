@@ -4,7 +4,7 @@
 
 *Планируйте деревню. Упрощайте производство. Исследуйте мир с более удобными инструментами.*
 
-[Возможности](#features) · [Скриншоты](#screenshots) · [Начало работы](#getting-started) · [Документация](#documentation) · [Поддержка разработки](#support-development)
+[Возможности](#features) · [Документация](#documentation) · [Конфиденциальность](#privacy) · [Поддержка разработки](#support-development) · [Скриншоты](#screenshots)
 
 ![Hearthborn Client](images/hearthborn.png)
 
@@ -44,20 +44,6 @@ Hearthborn создан на основе оригинального (vanilla) �
 - [**Переосмысленный «Сапёр»**](https://jagy2014.github.io/hearthborn-client/ru/features/mining-safety/) — отметки клеток пещеры, изучение подсказок от пыли и настройки безопасности шахт.
 - [**Помощь в бою**](https://jagy2014.github.io/hearthborn-client/ru/features/combat/) — автоматизация боя с животными и компактный боевой интерфейс.
 
-## Скриншоты {#screenshots}
-
-Краткий обзор интерфейса и инструментов Hearthborn. Нажмите на название функции, чтобы открыть подробное руководство.
-
-| [Настраиваемый интерфейс](https://jagy2014.github.io/hearthborn-client/ru/features/interface/) | [Планировщик деревни и владений](https://jagy2014.github.io/hearthborn-client/ru/features/claim-plan/) |
-| --- | --- |
-| ![Настраиваемый интерфейс Hearthborn](images/interface5.png) | ![Планировщик деревни](images/village-plan.jpg) |
-| [Журнал качества](https://jagy2014.github.io/hearthborn-client/ru/features/quality-roster/) | [Значки и настройки карты](https://jagy2014.github.io/hearthborn-client/ru/features/map-icons/) |
-| ![Журнал качества](images/quality-roster.png) | ![Инструменты карты](images/map.jpg) |
-| [Сыроварение](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Автоматизация и Xtensions](https://jagy2014.github.io/hearthborn-client/ru/features/scripts/) |
-| ![Схема производства сыров](images/cheese-2.jpg) | ![Меню Xtensions](images/xtensions.png) |
-| [Созревание сыров на стеллажах](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Содержимое шкафов](https://jagy2014.github.io/hearthborn-client/ru/features/storage/) |
-| ![Сырные стеллажи и стадии созревания](images/cheese-1.jpg) | ![Значки предметов над шкафами](images/cupboard-info.jpg) |
-
 ## Начало работы {#getting-started}
 
 Hearthborn — неофициальный пользовательский клиент для Haven & Hearth. Инструкции по установке и запуску появятся здесь, когда будет доступен проверенный дистрибутив.
@@ -83,3 +69,17 @@ Hearthborn бесплатен для всех. Пожертвования доб
 ## Авторы и лицензия {#credits-and-license}
 
 Hearthborn — независимый проект на основе клиента Haven & Hearth. Права на оригинальную игру и клиент принадлежат их авторам. Условия исходной лицензии приведены в оригинальном проекте.
+
+## Скриншоты {#screenshots}
+
+Краткий обзор интерфейса и инструментов Hearthborn. Нажмите на название функции, чтобы открыть подробное руководство.
+
+| [Настраиваемый интерфейс](https://jagy2014.github.io/hearthborn-client/ru/features/interface/) | [Планировщик деревни и владений](https://jagy2014.github.io/hearthborn-client/ru/features/claim-plan/) |
+| --- | --- |
+| ![Настраиваемый интерфейс Hearthborn](images/interface5.png) | ![Планировщик деревни](images/village-plan.jpg) |
+| [Журнал качества](https://jagy2014.github.io/hearthborn-client/ru/features/quality-roster/) | [Значки и настройки карты](https://jagy2014.github.io/hearthborn-client/ru/features/map-icons/) |
+| ![Журнал качества](images/quality-roster.png) | ![Инструменты карты](images/map.jpg) |
+| [Сыроварение](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Автоматизация и Xtensions](https://jagy2014.github.io/hearthborn-client/ru/features/scripts/) |
+| ![Схема производства сыров](images/cheese-2.jpg) | ![Меню Xtensions](images/xtensions.png) |
+| [Созревание сыров на стеллажах](https://jagy2014.github.io/hearthborn-client/ru/features/cheese/) | [Содержимое шкафов](https://jagy2014.github.io/hearthborn-client/ru/features/storage/) |
+| ![Сырные стеллажи и стадии созревания](images/cheese-1.jpg) | ![Значки предметов над шкафами](images/cupboard-info.jpg) |
