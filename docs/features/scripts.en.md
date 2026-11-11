@@ -112,6 +112,16 @@ Uses the **nearest stationary horse** for the dismount-rider action.
 
 It does not seek out moving horses or distant targets. **Escape** cancels subsequent steps but cannot reverse a completed action.
 
+## Additional everyday helpers
+
+### Collect milk and report quality
+
+Collects milk and reports the quality of the milk obtained. The reported value reflects the collection performed by the helper; it is not a prediction of future milk quality.
+
+### Collect dreams
+
+Collects dreams from nearby dreamcatchers. It operates on dreamcatchers accessible to the client in the surrounding area, not on objects elsewhere in the world.
+
 ## Limitations and cancellation
 
 Each helper above has its own inventory, target, and state requirements. In particular, the **fuel commands** use the specified inventory source and do not light fires; **drying frames and tanning tubs** have separate collect/load modes using **Shift**; and **cheese trays** require matching curd and open empty trays. See the corresponding sections for exact behavior.
