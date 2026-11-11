@@ -28,7 +28,7 @@ Explore each feature in its own illustrated guide.
 ### ⚙️ Production & management
 
 - [**Quality Roster**](docs/features/quality-roster.en.md) — Record object quality and display known values on your plans.
-- [**Cattle Roster**](docs/features/cattle-roster.en.md) — Redesigned livestock overview with automatic removal of dead or slaughtered animals.
+- [**Cattle Roster**](docs/features/cattle-roster.en.md) — Redesigned livestock overview with automatic removal of slaughtered animals.
 - [**Village & Claim Planner**](docs/features/claim-plan.en.md) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
 - [**Cheese Production Assistant**](docs/features/cheese.en.md) — Cheese aging stages, rack labels, and progression chart.
 - [**Automatic Timers**](docs/features/timers.en.md) — Production, cheese, siege, claim, and manual timers.
