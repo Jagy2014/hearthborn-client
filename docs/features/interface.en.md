@@ -14,10 +14,6 @@ The classic menu can sit in the **bottom-left** or **bottom-right** corner, with
 | --- | --- |
 | ![Classic action grid in the bottom-left corner](../images/classic%20menu%20left.png) | ![Classic action grid in the bottom-right corner](../images/classic%20menu%20right.png) |
 
-**Portrait on the right:** move the character portrait and status indicators to the opposite side while keeping the classic grid.
-
-![Classic interface with portrait and status indicators on the right](../images/classic%20menu%20portrait%20right.png)
-
 
 **Sidebar menu** replaces the grid with a vertical list of action categories. Click a category to expand its actions beside the sidebar; subcategories expand in place. Switch between the two styles in **Options → UI settings**.
 
@@ -37,11 +33,13 @@ Drag a toolbar by its background or gaps between buttons. When an icon occupies 
 
 Move the character portrait and status bars together to the right side if you prefer a mirrored HUD. Surrounding indicators adjust to the new position. Show or hide supported indicators, including food and hunger meters, water and tea, study reminders, FPS/ping, and other utility widgets.
 
-![Interface settings and classic HUD](../images/interface5.png)
+![Portrait and status indicators on the right](../images/classic%20menu%20portrait%20right.png)
 
 ## Adjust appearance and scale
 
 Use **Options → UI settings** to change panel scale, portrait scale, the option to enable or disable decorative gold frames on supported toolbars, and the light interface option. These settings let you choose between a compact workspace and larger, more accessible controls.
+
+![Interface settings and classic HUD](../images/interface5.png)
 
 ![Panels with different positions](../images/interface3.png)
 
