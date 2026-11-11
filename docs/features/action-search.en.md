@@ -10,4 +10,4 @@ The default **Action Search** has been reworked into a more useful action browse
 
 ![Redesigned Action Search with favorites and crafting details](<../images/search actions.png>)
 
-[Back to features](../../README.md#features)
+[Back to features](../index.md#features)
