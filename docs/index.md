@@ -24,6 +24,7 @@ Explore each feature in its own illustrated guide.
 ### ⚙️ Production & management
 
 - [**Quality Roster**](https://jagy2014.github.io/hearthborn-client/features/quality-roster/) — Record object quality and display known values on your plans.
+- [**Cattle Roster**](https://jagy2014.github.io/hearthborn-client/features/cattle-roster/) — Redesigned livestock overview with automatic removal of dead or slaughtered animals.
 - [**Village & Claim Planner**](https://jagy2014.github.io/hearthborn-client/features/claim-plan/) — Automatically map observed structures, name areas, measure tiles, and export or import plans.
 - [**Cheese Production Assistant**](https://jagy2014.github.io/hearthborn-client/features/cheese/) — Cheese aging stages, rack labels, and progression chart.
 - [**Automatic Timers**](https://jagy2014.github.io/hearthborn-client/features/timers/) — Production, cheese, siege, claim, and manual timers.
